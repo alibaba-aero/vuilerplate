@@ -1,5 +1,5 @@
 module.exports = {
-    "releaseCommitMessageFormat": "misc(versions): add version {{ currentTag }}",
+    "releaseCommitMessageFormat": "misc(versions): add version {{currentTag}}",
     "types": [
         {
             "type": "feat",
