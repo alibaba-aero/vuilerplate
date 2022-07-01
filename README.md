@@ -132,3 +132,4 @@ And you will see the generated file in `dist` that ready to be served.
 - [ ] improve `PostCSS` plugins
 - [ ] add and imprve `vite` or `rollup` plugins
 - [ ] add cli for creating boilerplate
+- [ ] add demo link and config github action for production releases auto publish
