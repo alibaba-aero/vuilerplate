@@ -1,0 +1,13 @@
+node_modules
+dist
+.nuxt
+.DS_Store
+.vscode
+.idea
+coverage
+*-coverage
+*.log
+.nyc_output
+.env*.local
+tsconfig.tsbuildinfo
+stats.html
