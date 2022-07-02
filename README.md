@@ -103,6 +103,19 @@ pnpm build
 
 And you will see the generated file in `dist` that ready to be served.
 
+### Docker
+
+At first, build the image:
+
+```bash
+docker build . -t alibaba:latest
+```
+
+Then run the image by:
+```
+docker run --rm -it -p 3000:80 alibaba:latest
+```
+
 ## TODO
 
 - [ ] improve `README.md` and add `Contribute`, `Folder Structure` sections
