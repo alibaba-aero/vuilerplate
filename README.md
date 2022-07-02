@@ -105,6 +105,7 @@ And you will see the generated file in `dist` that ready to be served.
 
 ## TODO
 
+- [ ] improve `README.md` and add `Contribute`, `Folder Structure` sections
 - [ ] E2E Testing - [Cypress](https://cypress.io/)
 - [ ] [Use icons from any icon sets with classes](https://github.com/antfu/)
 - [ ] [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
