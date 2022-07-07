@@ -3,13 +3,18 @@
     "airbnb",
     "airbnb-typescript/base",
     "plugin:vue/vue3-recommended",
+    "plugin:cypress/recommended",
     "@antfu"
   ],
+ 
+  "env": {
+    "cypress/globals": true
+  },
   "parser": "vue-eslint-parser",
   "parserOptions": {
     "parser": "@typescript-eslint/parser",
     "project": "./tsconfig.json",
-    "extraFileExtensions": [".vue", ".tsx"],
+    "extraFileExtensions": [".vue"],
     "ecmaVersion": 2021,
     "ecmaFeatures": {
       "jsx": true

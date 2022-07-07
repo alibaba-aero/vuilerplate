@@ -119,7 +119,7 @@ docker run --rm -it -p 3000:80 alibaba:latest
 ## TODO
 
 - [ ] improve `README.md` and add `Contribute`, `Folder Structure` sections
-- [ ] E2E Testing - [Cypress](https://cypress.io/)
+- [*] E2E Testing - [Cypress](https://cypress.io/)
 - [ ] [Use icons from any icon sets with classes](https://github.com/antfu/)
 - [ ] [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
   - [ ] [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vite plugin for Vue I18n

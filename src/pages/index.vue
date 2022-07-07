@@ -6,7 +6,7 @@ useHead({
 
 <template>
   <div>
-    <RouterLink to="/test">
+    <RouterLink to="/test" data-testid="test-link">
       Test
     </RouterLink>
   </div>
@@ -15,7 +15,7 @@ useHead({
   <NewJsxFile />
 </template>
 
-<style>
+<style lang="postcss">
 body {
     margin: 0;
 }

@@ -1,2 +1,4 @@
+# cypress/*
 vite.config.ts
 postcss.config.js
+cypress.config.ts

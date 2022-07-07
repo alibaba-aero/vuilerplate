@@ -1,11 +1,11 @@
-// import { describe, expect, it, beforeEach } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import type { MountingOptions } from '@vue/test-utils'
 import { createTestingPinia } from '@pinia/testing'
 import { fireEvent, render } from '@testing-library/vue'
 
-import HelloWorld from './HelloWorld.vue'
+import Component from './HelloWorld.vue'
 
-const factory = (options?: MountingOptions<any>) => render(HelloWorld, {
+const factory = (options?: MountingOptions<any>) => render(Component, {
   global: {
     plugins: [createTestingPinia({ createSpy: vi.fn })],
   },
