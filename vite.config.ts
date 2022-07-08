@@ -6,8 +6,10 @@ import Pages from 'vite-plugin-pages'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import VueJsx from '@vitejs/plugin-vue-jsx'
-import Visualizer from 'rollup-plugin-visualizer';
-import ViteCompression from 'vite-plugin-compression';
+import Visualizer from 'rollup-plugin-visualizer'
+import ViteCompression from 'vite-plugin-compression'
+import Markdown from 'vite-plugin-md'
+import Prism from 'markdown-it-prism'
 
 // https://github.com/antfu/unplugin-icons
 // for our icons
@@ -88,6 +90,18 @@ export default defineConfig(({ command }) => ({
       ? [ViteCompression({}), ViteCompression({ algorithm: 'brotliCompress', ext: '.br' })]
       : []
     ),
+    Markdown({
+      wrapperClasses: 'markdown-wrapper',
+      headEnabled: true,
+      markdownItOptions: {
+        html: true,
+        linkify: true,
+        typographer: true,
+      },
+      markdownItSetup(md) {
+        md.use(Prism)
+      },
+    }),
   ],
   test: {
     // environment: 'jsdom',

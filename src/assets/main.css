@@ -1,3 +1,40 @@
+@import 'prism-theme-vars/base.css';
+@import 'prism-theme-vars/themes/vitesse-dark.css';
+
+html:not(.dark) {
+  --prism-foreground: #393A34;
+  --prism-background: #F8F8F8;
+  --prism-comment: #758575;
+  --prism-namespace: #444444;
+  --prism-string: #BC8671;
+  --prism-punctuation: #80817D;
+  --prism-literal: #36ACAA;
+  --prism-keyword: #248459;
+  --prism-function: #849145;
+  --prism-deleted: #9A050F;
+  --prism-class: #2B91AF;
+  --prism-builtin: #800000;
+  --prism-property: #CE9178;
+  --prism-regex: #AD502B;
+}
+
+html.dark {
+  --prism-foreground: #D4D4D4;
+  --prism-background: #1E1E1E;
+  --prism-comment: #758575;
+  --prism-namespace: #444444;
+  --prism-string: #CE9178;
+  --prism-punctuation: #D4D4D4;
+  --prism-literal: #36ACAA;
+  --prism-keyword: #38A776;
+  --prism-function: #DCDCAA;
+  --prism-deleted: #9A050F;
+  --prism-class: #4EC9B0;
+  --prism-builtin: #D16969;
+  --prism-property: #CE9178;
+  --prism-regex: #AD502B;
+}
+
 body {
   margin: 0;
   font-family: 'Avenir', 'Helvetica', 'Arial', sans-serif;
