@@ -10,12 +10,12 @@
   </main>
 </template>
 
-<style scoped>
+<style lang="postcss" scoped>
 header {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 
 footer {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 </style>

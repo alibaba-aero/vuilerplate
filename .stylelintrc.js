@@ -1,6 +1,6 @@
 module.exports = {
-  "extends": "stylelint-config-recommended-vue",
-  "rules": {
+  extends: "stylelint-config-recommended-vue",
+  rules: {
       "block-opening-brace-space-before": "always",
       "block-no-empty": true,
       "declaration-colon-space-after": "always",
@@ -103,7 +103,7 @@ module.exports = {
       "at-rule-name-space-after": "always",
       "at-rule-semicolon-newline-after": "always",
       "comment-whitespace-inside": "always",
-      "indentation": 4,
+      "indentation": 2,
       "no-eol-whitespace": true,
       "no-missing-end-of-source-newline": true,
       "no-empty-first-line": true,

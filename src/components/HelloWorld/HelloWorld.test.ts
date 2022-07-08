@@ -1,11 +1,11 @@
-// import { describe, expect, it, beforeEach } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import type { MountingOptions } from '@vue/test-utils'
 import { createTestingPinia } from '@pinia/testing'
 import { fireEvent, render } from '@testing-library/vue'
 
-import HelloWorld from './HelloWorld.vue'
+import Component from './HelloWorld.vue'
 
-const factory = (options?: MountingOptions<any>) => render(HelloWorld, {
+const factory = (options?: MountingOptions<any>) => render(Component, {
   global: {
     plugins: [createTestingPinia({ createSpy: vi.fn })],
   },
@@ -14,21 +14,13 @@ const factory = (options?: MountingOptions<any>) => render(HelloWorld, {
 
 describe('HelloWorld', () => {
   it('shold mount correctly', async () => {
-    const wrapper = factory({
-      props: {
-        msg: 'any',
-      },
-    })
+    const wrapper = factory({})
     expect(wrapper).toBeTruthy()
     wrapper.unmount()
   })
 
   it('shold add counter correctly', async () => {
-    const wrapper = factory({
-      props: {
-        msg: 'any',
-      },
-    })
+    const wrapper = factory({})
     const { getByTestId } = wrapper
     const counterElement = getByTestId('counter')
     const counterPiniaElement = getByTestId('counter-pinia')

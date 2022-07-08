@@ -69,7 +69,7 @@ export default defineConfig(({ command }) => ({
         '@vueuse/head',
         '@vueuse/core',
         'pinia',
-        'vitest',
+        // 'vitest',
         // 'vue-i18n',
       ],
       dts: 'src/auto-imports.d.ts',

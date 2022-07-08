@@ -6,7 +6,7 @@ useHead({
 
 <template>
   <div>
-    <RouterLink to="/test">
+    <RouterLink to="/test" data-testid="test-link">
       Test
     </RouterLink>
   </div>
@@ -14,18 +14,3 @@ useHead({
   <HelloWorld />
   <NewJsxFile />
 </template>
-
-<style>
-body {
-    margin: 0;
-}
-
-#app {
-    font-family: 'Avenir', 'Helvetica', 'Arial', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2C3E50;
-}
-</style>
-

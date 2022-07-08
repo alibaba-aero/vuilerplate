@@ -7,7 +7,7 @@ useHead({
 <template>
   Test Page
   <div>
-    <RouterLink to="/">
+    <RouterLink to="/" data-testid="home-link">
       Home
     </RouterLink>
   </div>

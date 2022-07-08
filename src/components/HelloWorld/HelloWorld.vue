@@ -39,21 +39,21 @@ const incrementPinia = () => {
 
 <style lang="postcss" scoped>
 .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 .test-wrapper {
-    padding-top: 20px;
+  padding-top: 20px;
 
-    &__inner {
-        background: rgb(234, 241, 244);
-        padding: 20px 0;
-        margin-top: 20px;
-    }
+  &__inner {
+    background: rgb(234, 241, 244);
+    padding: 20px 0;
+    margin-top: 20px;
+  }
 }
 </style>
