@@ -1,6 +1,6 @@
 module.exports = {
-  "extends": "stylelint-config-recommended-vue",
-  "rules": {
+  extends: "stylelint-config-recommended-vue",
+  rules: {
       "block-opening-brace-space-before": "always",
       "block-no-empty": true,
       "declaration-colon-space-after": "always",
