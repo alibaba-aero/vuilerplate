@@ -27,7 +27,9 @@ Alibaba Travels Vue 3 starter package with vite
 
 - 💡 [PostCSS](https://postcss.org/)
 
-- ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest)
+- ⚙️ Unit testing with [Vitest](https://github.com/vitest-dev/vitest)
+
+- ⚙️ E2E and component testing with [Cypress](https://www.cypress.io/)
 
 - 🦾 TypeScript
 
