@@ -6,7 +6,6 @@
     "plugin:cypress/recommended",
     "@antfu"
   ],
- 
   "env": {
     "cypress/globals": true
   },
@@ -26,6 +25,7 @@
     "react/display-name": "off",
     "nonblock-statement-body-position": "off",
     "import/prefer-default-export": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.*", "**/*.spec.*", "**/*.cy.*"]}]
   }
 }

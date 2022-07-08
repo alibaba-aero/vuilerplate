@@ -28,7 +28,8 @@
     "src/**/*.js",
     "*.ts",
     "*.js",
-    "cypress"
+    "cypress",
+    "cypress.d.ts",
   ],
   "exclude": [
     "dist",

@@ -9,6 +9,7 @@
   },
   "exclude": [],
   "include": [
-    "**/*.ts"
+    "**/*.ts",
+    "../cypress.d.ts"
   ]
 }
