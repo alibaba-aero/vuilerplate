@@ -73,6 +73,7 @@ Alibaba Travels Vue 3 starter package with vite
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite (with `happy-dom`)
+- [Cypress](https://www.cypress.io/) - E2E and component testing powered by Cypress
 - [pnpm](https://pnpm.js.org/) - fast, disk space efficient package manager
 - [husky](https://github.com/typicode/husky)
 - [lint-staged](https://github.com/okonet/lint-staged)
