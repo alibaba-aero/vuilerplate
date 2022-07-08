@@ -53,6 +53,10 @@ Alibaba Travels Vue 3 starter package with vite
 - [`vite-plugin-compression`](https://github.com/vbenjs/vite-plugin-compression) - use `gzip` or `brotli` to compress resources.
 - [`plugin-vue-jsx`](https://www.npmjs.com/package/@vitejs/plugin-vue-jsx) - use JSX & TSX in your `.vue` files or separated `.jsx|tsx` file
 - [`vite-plugin-pwa`](https://github.com/antfu/vite-plugin-pwa) - PWA
+- Markdown Support - [`vite-plugin-md`](https://github.com/antfu/vite-plugin-md)
+  - [`markdown-it-prism`](https://github.com/jGleitz/markdown-it-prism)
+  - [Prism](https://prismjs.com/) for syntax highlighting
+  - [`prism-theme-vars`](https://github.com/antfu/prism-theme-vars) - customizable Prism.js theme using CSS variables
 - [Pinia](https://pinia.esm.dev) - Intuitive, type safe, light and flexible Store for Vue using the composition api
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 - [`@vueuse/head`](https://github.com/vueuse/head) - manipulate document head reactively
@@ -122,14 +126,9 @@ docker run --rm -it -p 3000:80 alibaba:latest
 ## TODO
 
 - [ ] improve `README.md` and add `Contribute`, `Folder Structure` sections
-- [x] E2E Testing - [Cypress](https://cypress.io/)
 - [ ] [Use icons from any icon sets with classes](https://github.com/antfu/)
 - [ ] [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
   - [ ] [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vite plugin for Vue I18n
-- [ ] Markdown Support - [`vite-plugin-vue-markdown`](https://github.com/antfu/vite-plugin-vue-markdown)
-  - [ ] [`markdown-it-prism`](https://github.com/jGleitz/markdown-it-prism)
-  - [ ] [Prism](https://prismjs.com/) for syntax highlighting
-  - [ ] [`prism-theme-vars`](https://github.com/antfu/prism-theme-vars) - customizable Prism.js theme using CSS variables
 - [ ] SSG Support - [vite-ssg](https://github.com/antfu/vite-ssg)
   - [ ] [`vite-ssg-sitemap`](https://github.com/jbaubree/vite-ssg-sitemap) - Sitemap generator
 - [ ] SSR Support

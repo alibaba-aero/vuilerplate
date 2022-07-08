@@ -8,9 +8,10 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./components/HelloWorld/HelloWorld.vue')['default']
+    MDTest: typeof import('./components/markdown/MDTest.vue')['default']
     NewJsxFile: typeof import('./components/NewJsxFile/NewJsxFile.tsx')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Test: typeof import('./components/NewJsxFile/Test.vue')['default']
+    Test: typeof import('./components/markdown/Test.vue')['default']
   }
 }
