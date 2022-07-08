@@ -25,6 +25,8 @@ Alibaba Travels Vue 3 starter package with vite
 
 - 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
 
+- 📩 [Markdown Support](https://github.com/antfu/vite-plugin-md)
+
 - 💡 [PostCSS](https://postcss.org/)
 
 - ⚙️ Unit testing with [Vitest](https://github.com/vitest-dev/vitest)
