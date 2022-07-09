@@ -16,10 +16,7 @@ const incrementPinia = () => {
 const { locale, t } = useI18n({ messages })
 
 function toggleLocale() {
-  if (locale.value === 'en')
-    locale.value = 'fa'
-  else
-    locale.value = 'en'
+  locale.value = (locale.value === 'en' ? 'fa' : 'en')
 }
 </script>
 
