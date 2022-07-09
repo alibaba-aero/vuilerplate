@@ -1,3 +1,4 @@
+const path = require('path')
 import { defineConfig } from 'vitest/config'
 import Vue from '@vitejs/plugin-vue'
 import Layouts from 'vite-plugin-vue-layouts'
@@ -10,12 +11,22 @@ import Visualizer from 'rollup-plugin-visualizer'
 import ViteCompression from 'vite-plugin-compression'
 import Markdown from 'vite-plugin-md'
 import Prism from 'markdown-it-prism'
+import VueI18n from '@intlify/vite-plugin-vue-i18n'
 
 // https://github.com/antfu/unplugin-icons
 // for our icons
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => ({
+  resolve:{
+    alias:{
+      '@' : path.resolve(__dirname, './src'),
+      '@/utils': path.resolve(__dirname, './src/utils')
+    },
+  },
+  build: {
+    sourcemap: true
+  },
   plugins: [
     Vue({
       include: [/\.vue$/, /\.md$/],
@@ -71,13 +82,14 @@ export default defineConfig(({ command }) => ({
         '@vueuse/head',
         '@vueuse/core',
         'pinia',
+        'vue-i18n',
         // 'vitest',
-        // 'vue-i18n',
       ],
       dts: 'src/auto-imports.d.ts',
       dirs: [
         'src/composables',
         'src/store',
+        'src/utils'
       ],
       vueTemplate: true,
     }),
@@ -102,6 +114,9 @@ export default defineConfig(({ command }) => ({
         md.use(Prism)
       },
     }),
+    VueI18n({
+      include: path.resolve(__dirname, './src/locales/**'),
+    })
   ],
   test: {
     // environment: 'jsdom',

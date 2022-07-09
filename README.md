@@ -23,6 +23,8 @@ Alibaba Travels Vue 3 starter package with vite
 
 - 🗜️ [File compression](https://github.com/vbenjs/vite-plugin-compression) - Use `gzip` or `brotli` to compress resources.
 
+- 🌍 [Vue i18n](https://github.com/intlify/vue-i18n-next)
+
 - 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
 
 - 💡 [PostCSS](https://postcss.org/)
@@ -52,6 +54,8 @@ Alibaba Travels Vue 3 starter package with vite
 - [`rollup-plugin-visualizer`](https://github.com/btd/rollup-plugin-visualizer) - visualize and analyze your bundle to see which modules are taking up space.
 - [`vite-plugin-compression`](https://github.com/vbenjs/vite-plugin-compression) - use `gzip` or `brotli` to compress resources.
 - [`plugin-vue-jsx`](https://www.npmjs.com/package/@vitejs/plugin-vue-jsx) - use JSX & TSX in your `.vue` files or separated `.jsx|tsx` file
+- [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
+  - [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vite plugin for Vue I18n
 - [`vite-plugin-pwa`](https://github.com/antfu/vite-plugin-pwa) - PWA
 - Markdown Support - [`vite-plugin-md`](https://github.com/antfu/vite-plugin-md)
   - [`markdown-it-prism`](https://github.com/jGleitz/markdown-it-prism)
@@ -127,8 +131,6 @@ docker run --rm -it -p 3000:80 alibaba:latest
 
 - [ ] improve `README.md` and add `Contribute`, `Folder Structure` sections
 - [ ] [Use icons from any icon sets with classes](https://github.com/antfu/)
-- [ ] [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
-  - [ ] [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vite plugin for Vue I18n
 - [ ] SSG Support - [vite-ssg](https://github.com/antfu/vite-ssg)
   - [ ] [`vite-ssg-sitemap`](https://github.com/jbaubree/vite-ssg-sitemap) - Sitemap generator
 - [ ] SSR Support
@@ -140,9 +142,7 @@ docker run --rm -it -p 3000:80 alibaba:latest
 - [ ] [autoprefixer](https://github.com/postcss/autoprefixer)
 - [ ] remove hover on mobile
 - [ ] remove desktop `@media` on mobile build
-- [ ] add alias on `vite.config.ts`
 - [ ] remove `data-testid` on production
-- [ ] enable `sourcemap` for production build
 - [ ] analyze `web-vital` and track them
 - [ ] improve `PWA` features
 - [ ] improve `PostCSS` plugins

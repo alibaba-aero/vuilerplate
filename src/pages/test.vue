@@ -1,14 +1,13 @@
 <script setup lang="ts">
-useHead({
-  title: 'Test Page',
-})
+useHead({ title: 'Test Page' })
+const { t } = useI18n()
 </script>
 
 <template>
-  Test Page
+  {{ t('testPage') }}
   <div>
     <RouterLink to="/" data-testid="home-link">
-      Home
+      {{ t('home') }}
     </RouterLink>
   </div>
 </template>
@@ -20,3 +19,16 @@ useHead({
   }
 }
 </route>
+
+<i18n lang="json">
+{
+  "en": {
+    "testPage": "Test Page",
+    "home": "Home"
+  },
+  "fa": {
+    "testPage": "صفحه تست",
+    "home": "خانه"
+  }
+}
+</i18n>

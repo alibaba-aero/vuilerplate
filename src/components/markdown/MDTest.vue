@@ -5,12 +5,13 @@ defineProps({
     default: '',
   },
 })
+const { t } = useI18n()
 </script>
 
 <template>
-  Test Component in Markdown
+  {{ t('testComponent') }}
   <div class="wrapper">
-    Props: {{ test }}
+    {{ t('props') }} {{ test }}
   </div>
 </template>
 
@@ -21,3 +22,16 @@ defineProps({
   background: lightsalmon;
 }
 </style>
+
+<i18n lang="json">
+{
+  "en": {
+    "testComponent": "Test Component in Markdown",
+    "props": "Props:"
+  },
+  "fa": {
+    "testComponent": "تست کامپوننت در مارک داون",
+    "props": "پراپس:"
+  }
+}
+</i18n>

@@ -3,7 +3,7 @@ import Component from './HelloWorld.vue'
 
 const factory = (options: any) => cy.mount(Component, {
   global: {
-    plugins: [createTestingPinia({ createSpy: cy.spy })],
+    plugins: [createTestingPinia({ createSpy: cy.spy }), i18n],
   },
   ...options,
 })
@@ -24,5 +24,15 @@ describe('HelloWorld', () => {
       .click()
       .contains('Add')
     cy.getByTestId('counter').contains('Counter: 1')
+  })
+
+  it('should change locale correctly', () => {
+    factory({})
+    cy.getByTestId('local').contains('Local')
+    cy.getByTestId('toggle-button')
+      .contains('Button Change Locale')
+      .click()
+      .contains('دکمه تغییر زبان')
+    cy.getByTestId('local').contains('محلی')
   })
 })

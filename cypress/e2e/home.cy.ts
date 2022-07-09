@@ -1,9 +1,9 @@
-context('Basic', () => {
+context('Home', () => {
   beforeEach(() => {
     cy.visit('/')
   })
 
-  it('basic nav', () => {
+  it('go to test page', () => {
     cy.url().should('eq', 'http://localhost:3000/')
 
     cy.getByTestId('test-link')
