@@ -1,11 +1,15 @@
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
+
 <template>
   <main>
     <header>
-      Header Sub
+      {{ t('header') }}
     </header>
     <RouterView />
     <footer>
-      Footer Sub
+      {{ t('footer') }}
     </footer>
   </main>
 </template>
@@ -19,3 +23,16 @@ footer {
   padding: 30px 0;
 }
 </style>
+
+<i18n lang="json">
+{
+  "en": {
+    "header": "Header Sub",
+    "footer": "Footer Sub"
+  },
+  "fa": {
+    "header": "هدر ساب",
+    "footer": "فوتر ساب"
+  }
+}
+</i18n>

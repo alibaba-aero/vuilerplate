@@ -22,4 +22,7 @@ const head = createHead()
 app.use(head)
 
 app.use(router)
+
+app.use(i18n)
+
 app.mount('#app')

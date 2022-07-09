@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import messages from '@intlify/vite-plugin-vue-i18n/messages'
+
 const main = useMainStore()
 
 let count = $ref(0)
@@ -10,29 +12,43 @@ const increment = () => {
 const incrementPinia = () => {
   main.counter += 1
 }
+
+const { locale, t } = useI18n({ messages })
+
+function toggleLocale() {
+  locale.value = (locale.value === 'en' ? 'fa' : 'en')
+}
 </script>
 
 <template>
+  <div>
+    <button data-testid="toggle-button" @click="toggleLocale">
+      {{ t('button') }} {{ t('changeLocale') }}
+    </button>
+    <span data-testid="local">
+      {{ t('local') }}
+    </span>
+  </div>
   <div class="wrapper">
     <h1 data-testid="counter-pinia">
-      Counter Pinia: {{ main.counter }}
+      {{ t('couterPinia') }} {{ main.counter }}
     </h1>
     <button type="button" data-testid="add-btn-pinia" @click="incrementPinia">
-      Add pinia
+      {{ t('addPinia') }}
     </button>
   </div>
   <div class="wrapper">
     <h1 data-testid="counter">
-      Counter: {{ count }}
+      {{ t('counter') }} {{ count }}
     </h1>
     <button type="button" data-testid="add-btn" @click="increment">
-      Add
+      {{ t('add') }}
     </button>
   </div>
   <div class="test-wrapper">
-    PostCSS Styling test
+    {{ t('postCssTest') }}
     <div class="test-wrapper__inner">
-      Inner
+      {{ t('inner') }}
     </div>
   </div>
 </template>
@@ -57,3 +73,28 @@ button {
   }
 }
 </style>
+
+<i18n lang="json">
+{
+  "en": {
+    "local": "Local",
+    "changeLocale": "Change Locale",
+    "couterPinia": "Counter Pinia:",
+    "addPinia": "Add pinia",
+    "counter": "Counter:",
+    "add": "Add",
+    "postCssTest": "PostCSS Styling test",
+    "inner": "Inner"
+  },
+  "fa": {
+    "local": "محلی",
+    "changeLocale": "تغییر زبان",
+    "couterPinia": "شمارشگر پینیا:",
+    "addPinia": "اضافه کردن پینیا",
+    "counter": "شمارشگر:",
+    "add": "اضافه کردن",
+    "postCssTest": "PostCSS تست استایل",
+    "inner": "درونی"
+  }
+}
+</i18n>

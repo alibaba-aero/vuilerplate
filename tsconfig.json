@@ -17,11 +17,17 @@
       "vue/ref-macros",
       "vite-plugin-pages/client",
       "vite-plugin-vue-layouts/client",
+      "@intlify/vite-plugin-vue-i18n/client"
     ],
     "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/utils/*": ["src/utils/*"]
+    },
   },
   "include": [
-    "src/**/*.ts", 
+    "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",

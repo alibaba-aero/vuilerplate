@@ -12,6 +12,5 @@ declare module '@vue/runtime-core' {
     NewJsxFile: typeof import('./components/NewJsxFile/NewJsxFile.tsx')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Test: typeof import('./components/markdown/Test.vue')['default']
   }
 }
