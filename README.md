@@ -41,7 +41,6 @@ Alibaba Travels Vue 3 starter package with vite
 
 <br>
 
-
 ## Pre-packed
 
 ### Plugins
@@ -66,8 +65,6 @@ Alibaba Travels Vue 3 starter package with vite
   - [`postcss-nested`](https://github.com/postcss/postcss-nested) for using nested `BEM` syntax for styling
   - [`postcss-url`](https://github.com/postcss/postcss-url)
   - [`postcss-import`](https://github.com/postcss/postcss-import)
-
-
 
 ### Coding Style
 
@@ -96,7 +93,7 @@ Alibaba Travels Vue 3 starter package with vite
 
 ### Development
 
-Just run and visit http://localhost:3000
+Just run and visit <http://localhost:3000>
 
 ```bash
 pnpm dev
@@ -121,6 +118,7 @@ docker build . -t alibaba:latest
 ```
 
 Then run the image by:
+
 ```
 docker run --rm -it -p 3000:80 alibaba:latest
 ```
@@ -148,6 +146,6 @@ docker run --rm -it -p 3000:80 alibaba:latest
 - [ ] analyze `web-vital` and track them
 - [ ] improve `PWA` features
 - [ ] improve `PostCSS` plugins
-- [ ] add and imprve `vite` or `rollup` plugins
+- [ ] add and improve `vite` or `rollup` plugins
 - [ ] add cli for creating boilerplate
 - [ ] add demo link and config github action for production releases auto publish
