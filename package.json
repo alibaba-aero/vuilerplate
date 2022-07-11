@@ -27,7 +27,7 @@
   "dependencies": {
     "@vueuse/core": "8.9.1",
     "@vueuse/head": "0.7.6",
-    "@vueuse/schema-org": "0.6.2",
+    "@vueuse/schema-org": "0.6.4",
     "pinia": "2.0.14",
     "prism-theme-vars": "^0.2.3",
     "vue": "3.2.37",
