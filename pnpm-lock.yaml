@@ -47,7 +47,7 @@ specifiers:
   vite-plugin-compression: 0.5.1
   vite-plugin-md: ^0.18.1
   vite-plugin-pages: 0.25.0
-  vite-plugin-pwa: 0.12.2
+  vite-plugin-pwa: 0.12.3
   vite-plugin-vue-layouts: 0.6.0
   vitest: 0.18.0
   vue: 3.2.37
@@ -108,7 +108,7 @@ devDependencies:
   vite-plugin-compression: 0.5.1_vite@2.9.14
   vite-plugin-md: 0.18.1_4mgjxipq2amy4xgap6y7y7fabq
   vite-plugin-pages: 0.25.0_vite@2.9.14
-  vite-plugin-pwa: 0.12.2_vite@2.9.14
+  vite-plugin-pwa: 0.12.3_vite@2.9.14
   vite-plugin-vue-layouts: 0.6.0_jvezqwqkuegqzldwnezrkfv7xi
   vitest: 0.18.0_n2e7wjq3q3ji5aelg75gg2bpre
   vue-eslint-parser: 9.0.3_eslint@8.19.0
@@ -8304,8 +8304,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-pwa/0.12.2_vite@2.9.14:
-    resolution: {integrity: sha512-XK2oi1YZkoc1J8fyerNYxyh/yfb+INdrdOW/mOOD5DBLq7jVPxHQuncIhqiREbGOMlY/xMe9CSE7QZ9xIAEf7A==}
+  /vite-plugin-pwa/0.12.3_vite@2.9.14:
+    resolution: {integrity: sha512-gmYdIVXpmBuNjzbJFPZFzxWYrX4lHqwMAlOtjmXBbxApiHjx9QPXKQPJjSpeTeosLKvVbNcKSAAhfxMda0QVNQ==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0-0
     dependencies:
