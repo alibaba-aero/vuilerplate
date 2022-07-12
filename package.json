@@ -28,7 +28,7 @@
     "@vueuse/core": "8.9.1",
     "@vueuse/head": "0.7.6",
     "@vueuse/schema-org": "0.6.4",
-    "pinia": "2.0.15",
+    "pinia": "2.0.16",
     "prism-theme-vars": "^0.2.3",
     "vue": "3.2.37",
     "vue-i18n": "^9.1.10",
