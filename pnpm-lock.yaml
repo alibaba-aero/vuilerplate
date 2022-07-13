@@ -10,7 +10,7 @@ specifiers:
   '@testing-library/vue': 6.6.0
   '@typescript-eslint/parser': 5.30.6
   '@vitejs/plugin-vue': 3.0.0
-  '@vitejs/plugin-vue-jsx': 1.3.10
+  '@vitejs/plugin-vue-jsx': 2.0.0
   '@vue/test-utils': 2.0.2
   '@vueuse/core': 8.9.2
   '@vueuse/head': 0.7.6
@@ -76,7 +76,7 @@ devDependencies:
   '@testing-library/vue': 6.6.0_vue@3.2.37
   '@typescript-eslint/parser': 5.30.6_4x5o4skxv6sl53vpwefgt23khm
   '@vitejs/plugin-vue': 3.0.0_vite@2.9.14+vue@3.2.37
-  '@vitejs/plugin-vue-jsx': 1.3.10
+  '@vitejs/plugin-vue-jsx': 2.0.0_vite@2.9.14+vue@3.2.37
   '@vue/test-utils': 2.0.2_vue@3.2.37
   c8: 7.11.3
   cypress: 10.3.0
@@ -1241,8 +1241,8 @@ packages:
       '@babel/helper-plugin-utils': 7.18.6
     dev: true
 
-  /@babel/plugin-transform-typescript/7.18.6_@babel+core@7.18.6:
-    resolution: {integrity: sha512-ijHNhzIrLj5lQCnI6aaNVRtGVuUZhOXFLRVFs7lLrkXTHip4FKty5oAuQdk4tywG0/WjXmjTfQCWmuzrvFer1w==}
+  /@babel/plugin-transform-typescript/7.18.8_@babel+core@7.18.6:
+    resolution: {integrity: sha512-p2xM8HI83UObjsZGofMV/EdYjamsDm6MoN3hXPYIT0+gxIoopE+B7rPYKAxfrz9K9PK7JafTTjqYC6qipLExYA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -2187,16 +2187,19 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue-jsx/1.3.10:
-    resolution: {integrity: sha512-Cf5zznh4yNMiEMBfTOztaDVDmK1XXfgxClzOSUVUc8WAmHzogrCUeM8B05ABzuGtg0D1amfng+mUmSIOFGP3Pw==}
-    engines: {node: '>=12.0.0'}
+  /@vitejs/plugin-vue-jsx/2.0.0_vite@2.9.14+vue@3.2.37:
+    resolution: {integrity: sha512-WF9ApZ/ivyyW3volQfu0Td0KNPhcccYEaRNzNY1NxRLVJQLSX0nFqquv3e2g7MF74p1XZK4bGtDL2y5i5O5+1A==}
+    engines: {node: '>=14.18.0'}
+    peerDependencies:
+      vite: ^3.0.0
+      vue: ^3.0.0
     dependencies:
       '@babel/core': 7.18.6
       '@babel/plugin-syntax-import-meta': 7.10.4_@babel+core@7.18.6
-      '@babel/plugin-transform-typescript': 7.18.6_@babel+core@7.18.6
-      '@rollup/pluginutils': 4.2.1
+      '@babel/plugin-transform-typescript': 7.18.8_@babel+core@7.18.6
       '@vue/babel-plugin-jsx': 1.1.1_@babel+core@7.18.6
-      hash-sum: 2.0.0
+      vite: 2.9.14
+      vue: 3.2.37
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5124,10 +5127,6 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
-    dev: true
-
-  /hash-sum/2.0.0:
-    resolution: {integrity: sha512-WdZTbAByD+pHfl/g9QSsBIIwy8IT+EsPiKDs0KNX+zSHhdDLFKdZu0BQHljvO+0QI/BasbMSUa8wYNCZTvhslg==}
     dev: true
 
   /he/1.2.0:
