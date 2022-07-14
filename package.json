@@ -37,7 +37,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "0.25.2",
     "@intlify/eslint-plugin-vue-i18n": "^2.0.0",
-    "@intlify/vite-plugin-vue-i18n": "^3.4.0",
+    "@intlify/vite-plugin-vue-i18n": "5.0.0",
     "@pinia/testing": "0.0.12",
     "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "5.16.4",
