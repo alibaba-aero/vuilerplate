@@ -36,7 +36,7 @@ specifiers:
   postcss-nested: 5.0.6
   postcss-url: 10.1.3
   prism-theme-vars: ^0.2.3
-  rollup-plugin-visualizer: 5.7.0
+  rollup-plugin-visualizer: 5.7.1
   standard-version: 9.5.0
   stylelint: 14.9.1
   stylelint-config-recommended-vue: 1.4.0
@@ -97,7 +97,7 @@ devDependencies:
   postcss-import: 14.1.0_postcss@8.4.14
   postcss-nested: 5.0.6_postcss@8.4.14
   postcss-url: 10.1.3_postcss@8.4.14
-  rollup-plugin-visualizer: 5.7.0
+  rollup-plugin-visualizer: 5.7.1
   standard-version: 9.5.0
   stylelint: 14.9.1
   stylelint-config-recommended-vue: 1.4.0_5rxrxgs7sjazj2ve56ds3kmipi
@@ -7211,8 +7211,8 @@ packages:
       terser: 5.14.1
     dev: true
 
-  /rollup-plugin-visualizer/5.7.0:
-    resolution: {integrity: sha512-RuWH9BeWl63+awX4RE3c79KWVlHIcR59WqAS+vu0FB+/HQkQKBkKlkago5f+USrfV6j2cQ3eWRpKTwd5VHHIyg==}
+  /rollup-plugin-visualizer/5.7.1:
+    resolution: {integrity: sha512-E/IgOMnmXKlc6ICyf53ok1b6DxPeNVUs3R0kYYPuDpGfofT4bkiG+KtSMlGjMACFmfwbbqTVDZBIF7sMZVKJbA==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
