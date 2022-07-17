@@ -1,7 +1,6 @@
-<p align='center'>
-Alibaba Travels Vue 3 starter package with vite
-- Check <a href="https://github.com/antfu/vitesse">vitesse</a>
-</p>
+<h1 align='center'>Alibaba Travels Vue 3 starter package with vite
+- Check <a href="https://github.com/antfu/vitesse">Vitesse</a>
+</h1>
 
 ## Features
 
@@ -96,6 +95,9 @@ Alibaba Travels Vue 3 starter package with vite
 ## Usage
 
 ### Development
+
+First you need to install the dependencies using **PNPM**
+> pnpm install
 
 Just run and visit <http://localhost:3000>
 
