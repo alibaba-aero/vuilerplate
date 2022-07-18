@@ -118,6 +118,10 @@ export default defineConfig(({ command }) => ({
       include: path.resolve(__dirname, './src/locales/**'),
     })
   ],
+  server: {
+    port: 5173,
+    host: '127.0.0.1'
+  },
   test: {
     // environment: 'jsdom',
     environment: 'happy-dom',
