@@ -9,7 +9,10 @@
   "parserOptions": {
     "parser": "@typescript-eslint/parser",
     "project": "./tsconfig.json",
-    "extraFileExtensions": [".vue", ".tsx"],
+    "extraFileExtensions": [
+      ".vue",
+      ".tsx"
+    ],
     "ecmaVersion": 2021,
     "ecmaFeatures": {
       "jsx": true
@@ -21,6 +24,12 @@
     "react/display-name": "off",
     "nonblock-statement-body-position": "off",
     "import/prefer-default-export": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ]
   }
 }

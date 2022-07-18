@@ -89,6 +89,9 @@ export default defineConfig(({ command }) => ({
       : []
     ),
   ],
+  ssgOptions: {
+    script: 'async',
+  },
   test: {
     // environment: 'jsdom',
     environment: 'happy-dom',
