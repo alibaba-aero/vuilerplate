@@ -97,7 +97,10 @@
 ### Development
 
 First you need to install the dependencies using **PNPM**
-> pnpm install
+
+```bash
+pnpm install
+```
 
 Just run and visit <http://localhost:3000>
 
