@@ -3,8 +3,13 @@
     "airbnb",
     "airbnb-typescript/base",
     "plugin:vue/vue3-recommended",
+    "plugin:cypress/recommended",
+    "plugin:@intlify/vue-i18n/recommended",
     "@antfu"
   ],
+  "env": {
+    "cypress/globals": true
+  },
   "parser": "vue-eslint-parser",
   "parserOptions": {
     "parser": "@typescript-eslint/parser",
@@ -25,11 +30,16 @@
     "nonblock-statement-body-position": "off",
     "import/prefer-default-export": "off",
     "react/jsx-filename-extension": "off",
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": true
-      }
-    ]
+    "import/no-extraneous-dependencies": ["error", {
+      "devDependencies": true
+    }],
+    "@intlify/vue-i18n/no-missing-keys": "off",
+    "import/extensions": "off"
+  },
+  "settings": {
+    "vue-i18n": {
+      "localeDir": "./locales/*.{json,json5,yaml,yml}",
+      "messageSyntaxVersion": "^9.0.0"
+    }
   }
 }

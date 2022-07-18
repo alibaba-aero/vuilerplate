@@ -1,7 +1,6 @@
-<p align='center'>
-Alibaba Travels Vue 3 starter package with vite
-- Check <a href="https://github.com/antfu/vitesse">vitesse</a>
-</p>
+<h1 align='center'>Alibaba Travels Vue 3 starter package with vite
+- Check <a href="https://github.com/antfu/vitesse">Vitesse</a>
+</h1>
 
 ## Features
 
@@ -23,11 +22,17 @@ Alibaba Travels Vue 3 starter package with vite
 
 - 🗜️ [File compression](https://github.com/vbenjs/vite-plugin-compression) - Use `gzip` or `brotli` to compress resources.
 
+- 🌍 [Vue i18n](https://github.com/intlify/vue-i18n-next)
+
 - 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
+
+- 📩 [Markdown Support](https://github.com/antfu/vite-plugin-md)
 
 - 💡 [PostCSS](https://postcss.org/)
 
-- ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest)
+- ⚙️ Unit testing with [Vitest](https://github.com/vitest-dev/vitest)
+
+- ⚙️ E2E and component testing with [Cypress](https://www.cypress.io/)
 
 - 🦾 TypeScript
 
@@ -36,7 +41,6 @@ Alibaba Travels Vue 3 starter package with vite
 - 🤙🏻 [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html) enabled
 
 <br>
-
 
 ## Pre-packed
 
@@ -50,7 +54,13 @@ Alibaba Travels Vue 3 starter package with vite
 - [`rollup-plugin-visualizer`](https://github.com/btd/rollup-plugin-visualizer) - visualize and analyze your bundle to see which modules are taking up space.
 - [`vite-plugin-compression`](https://github.com/vbenjs/vite-plugin-compression) - use `gzip` or `brotli` to compress resources.
 - [`plugin-vue-jsx`](https://www.npmjs.com/package/@vitejs/plugin-vue-jsx) - use JSX & TSX in your `.vue` files or separated `.jsx|tsx` file
+- [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
+  - [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vite plugin for Vue I18n
 - [`vite-plugin-pwa`](https://github.com/antfu/vite-plugin-pwa) - PWA
+- Markdown Support - [`vite-plugin-md`](https://github.com/antfu/vite-plugin-md)
+  - [`markdown-it-prism`](https://github.com/jGleitz/markdown-it-prism)
+  - [Prism](https://prismjs.com/) for syntax highlighting
+  - [`prism-theme-vars`](https://github.com/antfu/prism-theme-vars) - customizable Prism.js theme using CSS variables
 - [Pinia](https://pinia.esm.dev) - Intuitive, type safe, light and flexible Store for Vue using the composition api
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 - [`@vueuse/head`](https://github.com/vueuse/head) - manipulate document head reactively
@@ -58,8 +68,6 @@ Alibaba Travels Vue 3 starter package with vite
   - [`postcss-nested`](https://github.com/postcss/postcss-nested) for using nested `BEM` syntax for styling
   - [`postcss-url`](https://github.com/postcss/postcss-url)
   - [`postcss-import`](https://github.com/postcss/postcss-import)
-
-
 
 ### Coding Style
 
@@ -71,6 +79,7 @@ Alibaba Travels Vue 3 starter package with vite
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite (with `happy-dom`)
+- [Cypress](https://www.cypress.io/) - E2E and component testing powered by Cypress
 - [pnpm](https://pnpm.js.org/) - fast, disk space efficient package manager
 - [husky](https://github.com/typicode/husky)
 - [lint-staged](https://github.com/okonet/lint-staged)
@@ -87,7 +96,13 @@ Alibaba Travels Vue 3 starter package with vite
 
 ### Development
 
-Just run and visit http://localhost:3000
+First you need to install the dependencies using **PNPM**
+
+```bash
+pnpm install
+```
+
+Just run and visit <http://localhost:3000>
 
 ```bash
 pnpm dev
@@ -112,6 +127,7 @@ docker build . -t alibaba:latest
 ```
 
 Then run the image by:
+
 ```
 docker run --rm -it -p 3000:80 alibaba:latest
 ```
@@ -119,14 +135,7 @@ docker run --rm -it -p 3000:80 alibaba:latest
 ## TODO
 
 - [ ] improve `README.md` and add `Contribute`, `Folder Structure` sections
-- [ ] E2E Testing - [Cypress](https://cypress.io/)
 - [ ] [Use icons from any icon sets with classes](https://github.com/antfu/)
-- [ ] [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
-  - [ ] [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vite plugin for Vue I18n
-- [ ] Markdown Support - [`vite-plugin-vue-markdown`](https://github.com/antfu/vite-plugin-vue-markdown)
-  - [ ] [`markdown-it-prism`](https://github.com/jGleitz/markdown-it-prism)
-  - [ ] [Prism](https://prismjs.com/) for syntax highlighting
-  - [ ] [`prism-theme-vars`](https://github.com/antfu/prism-theme-vars) - customizable Prism.js theme using CSS variables
 - [ ] SSG Support - [vite-ssg](https://github.com/antfu/vite-ssg)
   - [ ] [`vite-ssg-sitemap`](https://github.com/jbaubree/vite-ssg-sitemap) - Sitemap generator
 - [ ] SSR Support
@@ -138,12 +147,10 @@ docker run --rm -it -p 3000:80 alibaba:latest
 - [ ] [autoprefixer](https://github.com/postcss/autoprefixer)
 - [ ] remove hover on mobile
 - [ ] remove desktop `@media` on mobile build
-- [ ] add alias on `vite.config.ts`
 - [ ] remove `data-testid` on production
-- [ ] enable `sourcemap` for production build
 - [ ] analyze `web-vital` and track them
 - [ ] improve `PWA` features
 - [ ] improve `PostCSS` plugins
-- [ ] add and imprve `vite` or `rollup` plugins
+- [ ] add and improve `vite` or `rollup` plugins
 - [ ] add cli for creating boilerplate
 - [ ] add demo link and config github action for production releases auto publish

@@ -1,2 +1,8 @@
+**/node_modules
+**/dist
+node_modules
+coverage
+.vscode
 vite.config.ts
 postcss.config.js
+cypress.config.ts

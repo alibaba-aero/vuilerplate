@@ -1,3 +1,4 @@
+const path = require('path')
 import { defineConfig } from 'vitest/config'
 import Vue from '@vitejs/plugin-vue'
 import Layouts from 'vite-plugin-vue-layouts'
@@ -6,14 +7,26 @@ import Pages from 'vite-plugin-pages'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import VueJsx from '@vitejs/plugin-vue-jsx'
-import Visualizer from 'rollup-plugin-visualizer';
-import ViteCompression from 'vite-plugin-compression';
+import Visualizer from 'rollup-plugin-visualizer'
+import ViteCompression from 'vite-plugin-compression'
+import Markdown from 'vite-plugin-md'
+import Prism from 'markdown-it-prism'
+import VueI18n from '@intlify/vite-plugin-vue-i18n'
 
 // https://github.com/antfu/unplugin-icons
 // for our icons
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => ({
+  resolve:{
+    alias:{
+      '@' : path.resolve(__dirname, './src'),
+      '@/utils': path.resolve(__dirname, './src/utils')
+    },
+  },
+  build: {
+    sourcemap: true
+  },
   plugins: [
     Vue({
       include: [/\.vue$/, /\.md$/],
@@ -69,13 +82,14 @@ export default defineConfig(({ command }) => ({
         '@vueuse/head',
         '@vueuse/core',
         'pinia',
-        'vitest',
-        // 'vue-i18n',
+        'vue-i18n',
+        // 'vitest',
       ],
       dts: 'src/auto-imports.d.ts',
       dirs: [
         'src/composables',
         'src/store',
+        'src/utils'
       ],
       vueTemplate: true,
     }),
@@ -88,6 +102,21 @@ export default defineConfig(({ command }) => ({
       ? [ViteCompression({}), ViteCompression({ algorithm: 'brotliCompress', ext: '.br' })]
       : []
     ),
+    Markdown({
+      wrapperClasses: 'markdown-wrapper',
+      headEnabled: true,
+      markdownItOptions: {
+        html: true,
+        linkify: true,
+        typographer: true,
+      },
+      markdownItSetup(md) {
+        md.use(Prism)
+      },
+    }),
+    VueI18n({
+      include: path.resolve(__dirname, './src/locales/**'),
+    })
   ],
   ssgOptions: {
     script: 'async',

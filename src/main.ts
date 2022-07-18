@@ -10,6 +10,7 @@ ViteSSG(
     const pinia = createPinia()
     app.use(pinia)
     app.use(router)
+    app.use(i18n)
 
     if (import.meta.env.SSR)
       initialState.pinia = pinia.state.value
