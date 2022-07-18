@@ -14,7 +14,7 @@ specifiers:
   '@vue/test-utils': 2.0.2
   '@vueuse/core': 8.9.4
   '@vueuse/head': 0.7.6
-  '@vueuse/schema-org': 0.6.4
+  '@vueuse/schema-org': 0.6.5
   c8: 7.11.3
   cypress: ^10.3.0
   eslint: 8.20.0
@@ -59,7 +59,7 @@ specifiers:
 dependencies:
   '@vueuse/core': 8.9.4_vue@3.2.37
   '@vueuse/head': 0.7.6_vue@3.2.37
-  '@vueuse/schema-org': 0.6.4_xxca4fmgsp7cw4caxfykg2fuya
+  '@vueuse/schema-org': 0.6.5_xxca4fmgsp7cw4caxfykg2fuya
   pinia: 2.0.16_j6bzmzd4ujpabbp5objtwxyjp4
   prism-theme-vars: 0.2.3
   vue: 3.2.37
@@ -2404,8 +2404,8 @@ packages:
   /@vueuse/metadata/8.9.4:
     resolution: {integrity: sha512-IwSfzH80bnJMzqhaapqJl9JRIiyQU0zsRGEgnxN6jhq7992cPUJIRfV+JHRIZXjYqbwt07E1gTEp0R0zPJ1aqw==}
 
-  /@vueuse/schema-org/0.6.4_xxca4fmgsp7cw4caxfykg2fuya:
-    resolution: {integrity: sha512-LEGWNuHtzNQRUJl6JIsnw8X2LilWNLE5Y97I//pWr5bqKe623516HKwt8b9MEtvURa41FOD0quR68uTw+L9hHw==}
+  /@vueuse/schema-org/0.6.5_xxca4fmgsp7cw4caxfykg2fuya:
+    resolution: {integrity: sha512-qctjPdZdJUoChXQueQ1YU9Nla/ez+pKGo6QRvchfrLwndoZ8Sg6IFaFSAJCGr/CPjtZ+B8mTVWNNYTlr+Foz2A==}
     peerDependencies:
       vue: '>=3.2.0'
       vue-router: ^4
