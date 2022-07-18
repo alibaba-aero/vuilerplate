@@ -102,7 +102,7 @@ First you need to install the dependencies using **PNPM**
 pnpm install
 ```
 
-Just run and visit <http://localhost:3000>
+Just run and visit <http://localhost:5173>
 
 ```bash
 pnpm dev
@@ -129,7 +129,7 @@ docker build . -t alibaba:latest
 Then run the image by:
 
 ```
-docker run --rm -it -p 3000:80 alibaba:latest
+docker run --rm -it -p 5173:80 alibaba:latest
 ```
 
 ## TODO
