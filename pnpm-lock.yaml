@@ -23,7 +23,7 @@ specifiers:
   eslint-plugin-cypress: ^2.12.1
   eslint-plugin-jsx-a11y: 6.6.0
   eslint-plugin-vue: 9.2.0
-  happy-dom: 6.0.3
+  happy-dom: 6.0.4
   husky: 8.0.1
   jsdom: 20.0.0
   lint-staged: 13.0.3
@@ -86,7 +86,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@8.20.0
   eslint-plugin-jsx-a11y: 6.6.0_eslint@8.20.0
   eslint-plugin-vue: 9.2.0_eslint@8.20.0
-  happy-dom: 6.0.3
+  happy-dom: 6.0.4
   husky: 8.0.1
   jsdom: 20.0.0
   lint-staged: 13.0.3
@@ -106,11 +106,11 @@ devDependencies:
   unplugin-vue-components: 0.21.1_vite@2.9.14+vue@3.2.37
   vite: 2.9.14
   vite-plugin-compression: 0.5.1_vite@2.9.14
-  vite-plugin-md: 0.18.1_zph3xprso5tup7k7qlmidfee7i
+  vite-plugin-md: 0.18.1_apcd5h2s7xdvkwandykk7mhile
   vite-plugin-pages: 0.25.0_vite@2.9.14
   vite-plugin-pwa: 0.12.3_vite@2.9.14
   vite-plugin-vue-layouts: 0.6.0_flmdgpcga2tcv7fjnxu4mi6p6a
-  vitest: 0.18.1_x46smkovknbuygayuc7ux45nqy
+  vitest: 0.18.1_hz2tne7swqg5ajhxk6npi3kqdq
   vue-eslint-parser: 9.0.3_eslint@8.20.0
   vue-tsc: 0.38.8_typescript@4.7.4
 
@@ -1528,8 +1528,8 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/message-compiler': 9.2.0-beta.38
-      '@intlify/shared': 9.2.0-beta.38
+      '@intlify/message-compiler': 9.2.0-beta.39
+      '@intlify/shared': 9.2.0-beta.39
       jsonc-eslint-parser: 1.4.1
       source-map: 0.6.1
       vue-i18n: 9.1.10_vue@3.2.37
@@ -1587,11 +1587,11 @@ packages:
       '@intlify/shared': 9.1.10
       source-map: 0.6.1
 
-  /@intlify/message-compiler/9.2.0-beta.38:
-    resolution: {integrity: sha512-jUoQExjvFDOUdKDL+k4AzACfx8LXSRftSCQnV3I/DNcvwRDcf5fdb5mhYwYspQp0WtWNqSTTz/cC5Ia1Hyjiuw==}
+  /@intlify/message-compiler/9.2.0-beta.39:
+    resolution: {integrity: sha512-wHb3zzk/H3Wfx9U/SaXVenQ/qq2suqJMl/ppu+IdyGGMZxqC57zFqkgwWxEpqP4DzGeisjHe2myjLZQyV1haEQ==}
     engines: {node: '>= 14'}
     dependencies:
-      '@intlify/shared': 9.2.0-beta.38
+      '@intlify/shared': 9.2.0-beta.39
       source-map: 0.6.1
     dev: true
 
@@ -1611,8 +1611,8 @@ packages:
     resolution: {integrity: sha512-Om54xJeo1Vw+K1+wHYyXngE8cAbrxZHpWjYzMR9wCkqbhGtRV5VLhVc214Ze2YatPrWlS2WSMOWXR8JktX/IgA==}
     engines: {node: '>= 10'}
 
-  /@intlify/shared/9.2.0-beta.38:
-    resolution: {integrity: sha512-FPb41WXXOH259ku6hHVQVyYKR6ictKNC4ZZBZg8hknwd06nREuRAHMDMNm8++YfAPUEeRYq2I6F424myvhjuxA==}
+  /@intlify/shared/9.2.0-beta.39:
+    resolution: {integrity: sha512-FqzpkZVk/cTsywWc4mVbI2/fDQwYm8oXVwi7yuassiLps3yJK7P0s6grZaaXIX8gMODNLjJtJPd2KEOSj1lUyw==}
     engines: {node: '>= 14'}
     dev: true
 
@@ -1632,7 +1632,7 @@ packages:
         optional: true
     dependencies:
       '@intlify/bundle-utils': 3.1.0_vue-i18n@9.1.10
-      '@intlify/shared': 9.2.0-beta.38
+      '@intlify/shared': 9.2.0-beta.39
       '@rollup/pluginutils': 4.2.1
       debug: 4.3.4
       fast-glob: 3.2.11
@@ -5086,8 +5086,8 @@ packages:
       uglify-js: 3.16.1
     dev: true
 
-  /happy-dom/6.0.3:
-    resolution: {integrity: sha512-1P1l2ynhs9lkO2M8X+fJzMbGUBzKZX8CSqjYrMw5LInqwdURvwj1veYD+br13jtNCwbjzZrYNuQXjj1vqENK4w==}
+  /happy-dom/6.0.4:
+    resolution: {integrity: sha512-b+ID23Ms0BY08UNLymsOMG7EI2jSlwEt4cbJs938GZfeNAg+fqgkSO3TokQMgSOFoHznpjWmpVjBUL5boJ9PWw==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -8283,7 +8283,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-md/0.18.1_zph3xprso5tup7k7qlmidfee7i:
+  /vite-plugin-md/0.18.1_apcd5h2s7xdvkwandykk7mhile:
     resolution: {integrity: sha512-A8uqQV2yO+iKOkvDmbQCj47nKo5z2g6n8mOZLN16fo4kCI8ktW/27MkflzR9KmyZd34IZ5wX8B0PR3UBNlJjqA==}
     peerDependencies:
       happy-dom: ^5.3.1
@@ -8297,7 +8297,7 @@ packages:
       '@vue/runtime-core': 3.2.37
       '@vueuse/core': 8.9.4_vue@3.2.37
       gray-matter: 4.0.3
-      happy-dom: 6.0.3
+      happy-dom: 6.0.4
       markdown-it: 13.0.1
       source-map-js: 1.0.2
       ts-morph: 15.1.0
@@ -8388,7 +8388,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.18.1_x46smkovknbuygayuc7ux45nqy:
+  /vitest/0.18.1_hz2tne7swqg5ajhxk6npi3kqdq:
     resolution: {integrity: sha512-4F/1K/Vn4AvJwe7i2YblR02PT5vMKcw9KN4unDq2KD0YcSxX0B/6D6Qu9PJaXwVuxXMFTQ5ovd4+CQaW3bwofA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -8416,7 +8416,7 @@ packages:
       c8: 7.11.3
       chai: 4.3.6
       debug: 4.3.4
-      happy-dom: 6.0.3
+      happy-dom: 6.0.4
       jsdom: 20.0.0
       local-pkg: 0.4.2
       tinypool: 0.2.4
