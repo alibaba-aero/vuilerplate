@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.3",
   "scripts": {
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vue-tsc --noEmit && vite-ssg build",
     "coverage": "vitest run --coverage",
     "dev": "vite",
     "lint:js": "eslint . --ext .js,.ts,.vue",
@@ -78,6 +78,7 @@
     "vite-plugin-pages": "0.25.0",
     "vite-plugin-pwa": "0.12.3",
     "vite-plugin-vue-layouts": "0.6.0",
+    "vite-ssg": "^0.20.2",
     "vitest": "0.18.1",
     "vue-eslint-parser": "9.0.3",
     "vue-tsc": "0.38.8"

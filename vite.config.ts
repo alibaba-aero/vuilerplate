@@ -122,6 +122,9 @@ export default defineConfig(({ command }) => ({
     port: 5173,
     host: '127.0.0.1'
   },
+  ssgOptions: {
+    script: 'async'
+  },
   test: {
     // environment: 'jsdom',
     environment: 'happy-dom',
