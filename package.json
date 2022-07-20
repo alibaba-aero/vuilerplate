@@ -26,11 +26,13 @@
   },
   "dependencies": {
     "@vueuse/core": "8.9.4",
+    "@vueuse/head": "0.7.6",
     "@vueuse/schema-org": "0.6.5",
     "pinia": "2.0.16",
     "prism-theme-vars": "^0.2.3",
     "vue": "3.2.37",
-    "vue-i18n": "^9.1.10"
+    "vue-i18n": "^9.1.10",
+    "vue-router": "4.1.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "0.25.2",
@@ -40,11 +42,10 @@
     "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "5.16.4",
     "@testing-library/vue": "6.6.1",
-    "@typescript-eslint/parser": "5.30.6",
-    "@vitejs/plugin-vue": "3.0.0",
+    "@typescript-eslint/parser": "5.30.7",
+    "@vitejs/plugin-vue": "3.0.1",
     "@vitejs/plugin-vue-jsx": "2.0.0",
     "@vue/test-utils": "2.0.2",
-    "@vueuse/head": "0.7.6",
     "c8": "7.11.3",
     "cypress": "^10.3.0",
     "eslint": "8.20.0",
@@ -71,7 +72,7 @@
     "typescript": "4.7.4",
     "unplugin-auto-import": "0.9.3",
     "unplugin-vue-components": "0.21.1",
-    "vite": "2.9.14",
+    "vite": "3.0.2",
     "vite-plugin-compression": "0.5.1",
     "vite-plugin-md": "^0.18.1",
     "vite-plugin-pages": "0.25.0",
@@ -80,7 +81,6 @@
     "vite-ssg": "^0.20.2",
     "vitest": "0.18.1",
     "vue-eslint-parser": "9.0.3",
-    "vue-router": "4.1.2",
     "vue-tsc": "0.38.8"
   }
 }
