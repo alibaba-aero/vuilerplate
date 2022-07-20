@@ -80,6 +80,6 @@
     "vite-plugin-vue-layouts": "0.6.0",
     "vitest": "0.18.1",
     "vue-eslint-parser": "9.0.3",
-    "vue-tsc": "0.38.8"
+    "vue-tsc": "0.38.9"
   }
 }
