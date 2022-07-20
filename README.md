@@ -68,6 +68,7 @@
   - [`postcss-nested`](https://github.com/postcss/postcss-nested) for using nested `BEM` syntax for styling
   - [`postcss-url`](https://github.com/postcss/postcss-url)
   - [`postcss-import`](https://github.com/postcss/postcss-import)
+- [vite-ssg](https://github.com/antfu/vite-ssg) - SSG Support
 
 ### Coding Style
 
@@ -136,8 +137,7 @@ docker run --rm -it -p 5173:80 alibaba:latest
 
 - [ ] improve `README.md` and add `Contribute`, `Folder Structure` sections
 - [ ] [Use icons from any icon sets with classes](https://github.com/antfu/)
-- [ ] SSG Support - [vite-ssg](https://github.com/antfu/vite-ssg)
-  - [ ] [`vite-ssg-sitemap`](https://github.com/jbaubree/vite-ssg-sitemap) - Sitemap generator
+- [ ] [`vite-ssg-sitemap`](https://github.com/jbaubree/vite-ssg-sitemap) - Sitemap generator
 - [ ] SSR Support
 - [ ] CSS engine - [Tailwind](https://tailwindcss.com/), [WindiCSS](https://windicss.org/), [UnoCSS](https://github.com/antfu/unocss)
 - [ ] Critical CSS - [critters](https://github.com/GoogleChromeLabs/critters)
