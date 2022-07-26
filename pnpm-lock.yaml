@@ -42,7 +42,7 @@ specifiers:
   stylelint-config-recommended-vue: 1.4.0
   typescript: 4.7.4
   unplugin-auto-import: 0.9.4
-  unplugin-vue-components: 0.21.1
+  unplugin-vue-components: 0.21.2
   vite: 3.0.2
   vite-plugin-compression: 0.5.1
   vite-plugin-md: 0.19.7
@@ -104,7 +104,7 @@ devDependencies:
   stylelint-config-recommended-vue: 1.4.0_5rxrxgs7sjazj2ve56ds3kmipi
   typescript: 4.7.4
   unplugin-auto-import: 0.9.4_h424so5tb623alsee2e3aarhfi
-  unplugin-vue-components: 0.21.1_vite@3.0.2+vue@3.2.37
+  unplugin-vue-components: 0.21.2_vite@3.0.2+vue@3.2.37
   vite: 3.0.2
   vite-plugin-compression: 0.5.1_vite@3.0.2
   vite-plugin-md: 0.19.7_@vitejs+plugin-vue@3.0.1
@@ -8179,8 +8179,8 @@ packages:
       - webpack
     dev: true
 
-  /unplugin-vue-components/0.21.1_vite@3.0.2+vue@3.2.37:
-    resolution: {integrity: sha512-8MhIT323q1EUu7rz6NfQeiHqDrZKtygy6s9jzcQAuuZUM2T38SHlPT5YJjBOZmM0Bau6YuNTKfBBX4iHzeusaQ==}
+  /unplugin-vue-components/0.21.2_vite@3.0.2+vue@3.2.37:
+    resolution: {integrity: sha512-HBU+EuesDj/HRs7EtYH7gBACljVhqLylltrCLModRmCToIIrrNvMh54aylUt4AD4qiwylgOx4Vgb9sBlrIcRDw==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
@@ -8194,11 +8194,11 @@ packages:
       chokidar: 3.5.3
       debug: 4.3.4
       fast-glob: 3.2.11
-      local-pkg: 0.4.1
+      local-pkg: 0.4.2
       magic-string: 0.26.2
       minimatch: 5.1.0
       resolve: 1.22.1
-      unplugin: 0.7.1_vite@3.0.2
+      unplugin: 0.7.2_vite@3.0.2
       vue: 3.2.37
     transitivePeerDependencies:
       - esbuild
@@ -8206,30 +8206,6 @@ packages:
       - supports-color
       - vite
       - webpack
-    dev: true
-
-  /unplugin/0.7.1_vite@3.0.2:
-    resolution: {integrity: sha512-Z6hNDXDNh9aimMkPU1mEjtk+2ova8gh0y7rJeJdGH1vWZOHwF2lLQiQ/R97rv9ymmzEQXsR2fyMet72T8jy6ew==}
-    peerDependencies:
-      esbuild: '>=0.13'
-      rollup: ^2.50.0
-      vite: ^2.3.0 || ^3.0.0-0
-      webpack: 4 || 5
-    peerDependenciesMeta:
-      esbuild:
-        optional: true
-      rollup:
-        optional: true
-      vite:
-        optional: true
-      webpack:
-        optional: true
-    dependencies:
-      acorn: 8.7.1
-      chokidar: 3.5.3
-      vite: 3.0.2
-      webpack-sources: 3.2.3
-      webpack-virtual-modules: 0.4.4
     dev: true
 
   /unplugin/0.7.2_vite@3.0.2:
@@ -8347,7 +8323,7 @@ packages:
       '@rollup/pluginutils': 4.2.1
       '@vitejs/plugin-vue': 3.0.1_vite@3.0.2+vue@3.2.37
       '@yankeeinlondon/happy-wrapper': 2.4.0_happy-dom@6.0.4
-      gray-matter: github.com/yankeeinlondon/gray-matter/1302806095393b58310c6af994179369d6d2c71b
+      gray-matter: github.com/yankeeinlondon/gray-matter/c5c826030099b811b4f4effd0a46cc8f82305d0a
       happy-dom: 6.0.4
       markdown-it: 13.0.1
       pathe: 0.3.2
@@ -9005,10 +8981,10 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/yankeeinlondon/gray-matter/1302806095393b58310c6af994179369d6d2c71b:
-    resolution: {tarball: https://codeload.github.com/yankeeinlondon/gray-matter/tar.gz/1302806095393b58310c6af994179369d6d2c71b}
-    name: gray-matter
-    version: 4.0.3
+  github.com/yankeeinlondon/gray-matter/c5c826030099b811b4f4effd0a46cc8f82305d0a:
+    resolution: {tarball: https://codeload.github.com/yankeeinlondon/gray-matter/tar.gz/c5c826030099b811b4f4effd0a46cc8f82305d0a}
+    name: '@yankeeinlondon/gray-matter'
+    version: 5.0.1
     engines: {node: '>=12.0'}
     dependencies:
       js-yaml: 4.1.0
