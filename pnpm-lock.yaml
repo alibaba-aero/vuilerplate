@@ -50,7 +50,7 @@ specifiers:
   vite-plugin-pwa: 0.12.3
   vite-plugin-vue-layouts: 0.7.0
   vite-ssg: ^0.20.2
-  vitest: 0.18.1
+  vitest: 0.19.1
   vue: 3.2.37
   vue-eslint-parser: 9.0.3
   vue-i18n: ^9.1.10
@@ -112,7 +112,7 @@ devDependencies:
   vite-plugin-pwa: 0.12.3_vite@3.0.2
   vite-plugin-vue-layouts: 0.7.0_i5f576xweswtg2nbfti5sqkk7q
   vite-ssg: 0.20.2_wnb4cdc7tyiuw4swf2744rkjqu
-  vitest: 0.18.1_jbo2wdnuxznsq2e5ps7kflwguu
+  vitest: 0.19.1_jbo2wdnuxznsq2e5ps7kflwguu
   vue-eslint-parser: 9.0.3_eslint@8.20.0
   vue-tsc: 0.39.2_typescript@4.7.4
 
@@ -8494,18 +8494,21 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.18.1_jbo2wdnuxznsq2e5ps7kflwguu:
-    resolution: {integrity: sha512-4F/1K/Vn4AvJwe7i2YblR02PT5vMKcw9KN4unDq2KD0YcSxX0B/6D6Qu9PJaXwVuxXMFTQ5ovd4+CQaW3bwofA==}
+  /vitest/0.19.1_jbo2wdnuxznsq2e5ps7kflwguu:
+    resolution: {integrity: sha512-E/ZXpFMUahn731wzhMBNzWRp4mGgiZFT0xdHa32cbNO0CSaHpE9hTfteEU247Gi2Dula8uXo5vvrNB6dtszmQA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
+      '@vitest/browser': '*'
       '@vitest/ui': '*'
       c8: '*'
       happy-dom: '*'
       jsdom: '*'
     peerDependenciesMeta:
       '@edge-runtime/vm':
+        optional: true
+      '@vitest/browser':
         optional: true
       '@vitest/ui':
         optional: true
