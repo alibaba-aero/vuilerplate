@@ -25,7 +25,7 @@
     "*.{scss,vue}": "stylelint --fix"
   },
   "dependencies": {
-    "@vueuse/core": "8.9.4",
+    "@vueuse/core": "9.0.2",
     "@vueuse/head": "0.7.8",
     "@vueuse/schema-org": "0.6.5",
     "pinia": "2.0.17",
