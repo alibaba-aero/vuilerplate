@@ -48,7 +48,7 @@ specifiers:
   vite-plugin-md: 0.20.2
   vite-plugin-pages: 0.25.0
   vite-plugin-pwa: 0.12.3
-  vite-plugin-vue-layouts: 0.6.0
+  vite-plugin-vue-layouts: 0.7.0
   vite-ssg: ^0.20.2
   vitest: 0.18.1
   vue: 3.2.37
@@ -110,7 +110,7 @@ devDependencies:
   vite-plugin-md: 0.20.2_happy-dom@6.0.4
   vite-plugin-pages: 0.25.0_vite@3.0.2
   vite-plugin-pwa: 0.12.3_vite@3.0.2
-  vite-plugin-vue-layouts: 0.6.0_i5f576xweswtg2nbfti5sqkk7q
+  vite-plugin-vue-layouts: 0.7.0_i5f576xweswtg2nbfti5sqkk7q
   vite-ssg: 0.20.2_wnb4cdc7tyiuw4swf2744rkjqu
   vitest: 0.18.1_jbo2wdnuxznsq2e5ps7kflwguu
   vue-eslint-parser: 9.0.3_eslint@8.20.0
@@ -8417,10 +8417,10 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-vue-layouts/0.6.0_i5f576xweswtg2nbfti5sqkk7q:
-    resolution: {integrity: sha512-7QX7o/NpCfs+hyXphwYfmPqAEQ6qd4uXsvI0VsovjGT2eCoEE5dMdP6L+uqqNWY4uqv7oCvtinecZmbzZv/9Rg==}
+  /vite-plugin-vue-layouts/0.7.0_i5f576xweswtg2nbfti5sqkk7q:
+    resolution: {integrity: sha512-k5XDmRNFo4M/GmUjhbRXj2WmJiFcGoVI8l/uZ72RHyRDQr4wE/6Zq/KFq0lqXomWQxTSzakQRUswzNwtvZLE8A==}
     peerDependencies:
-      vite: ^2.5.0
+      vite: ^2.5.0 || ^3.0.0-0
       vue: ^2.6.12 || ^3.2.4
       vue-router: ^3.5.1 || ^ 4.0.11
     dependencies:
