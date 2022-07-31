@@ -50,7 +50,7 @@ specifiers:
   vite-plugin-pwa: 0.12.3
   vite-plugin-vue-layouts: 0.7.0
   vite-ssg: ^0.20.2
-  vitest: 0.19.1
+  vitest: 0.20.2
   vue: 3.2.37
   vue-eslint-parser: 9.0.3
   vue-i18n: ^9.1.10
@@ -112,7 +112,7 @@ devDependencies:
   vite-plugin-pwa: 0.12.3_vite@3.0.4
   vite-plugin-vue-layouts: 0.7.0_2idawcohe3eegwclkuflddhqau
   vite-ssg: 0.20.2_x5ujt4bx23edlerxxrmot3wb4a
-  vitest: 0.19.1_jbo2wdnuxznsq2e5ps7kflwguu
+  vitest: 0.20.2_jbo2wdnuxznsq2e5ps7kflwguu
   vue-eslint-parser: 9.0.3_eslint@8.20.0
   vue-tsc: 0.39.2_typescript@4.7.4
 
@@ -8512,8 +8512,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.19.1_jbo2wdnuxznsq2e5ps7kflwguu:
-    resolution: {integrity: sha512-E/ZXpFMUahn731wzhMBNzWRp4mGgiZFT0xdHa32cbNO0CSaHpE9hTfteEU247Gi2Dula8uXo5vvrNB6dtszmQA==}
+  /vitest/0.20.2_jbo2wdnuxznsq2e5ps7kflwguu:
+    resolution: {integrity: sha512-AFXTHrwG4d2OO6SAL8WP5ZkOwLtgeF4tlrHfXFqrHc+5chNegeR53pge0lv/C4316SqJ2DbYaUBH8vh3CdF+BQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
