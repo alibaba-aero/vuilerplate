@@ -40,7 +40,7 @@
     "@intlify/vite-plugin-vue-i18n": "6.0.0",
     "@pinia/testing": "0.0.13",
     "@testing-library/cypress": "^8.0.3",
-    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/jest-dom": "5.16.5",
     "@testing-library/vue": "6.6.1",
     "@typescript-eslint/parser": "5.32.0",
     "@vitejs/plugin-vue": "3.0.1",
