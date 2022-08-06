@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': 0.25.2
   '@intlify/eslint-plugin-vue-i18n': ^2.0.0
-  '@intlify/vite-plugin-vue-i18n': 5.0.1
+  '@intlify/vite-plugin-vue-i18n': 6.0.0
   '@pinia/testing': 0.0.13
   '@testing-library/cypress': ^8.0.3
   '@testing-library/jest-dom': 5.16.4
@@ -70,7 +70,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.25.2_qugx7qdu5zevzvxaiqyxfiwquq
   '@intlify/eslint-plugin-vue-i18n': 2.0.0_eslint@8.21.0
-  '@intlify/vite-plugin-vue-i18n': 5.0.1_vite@3.0.4+vue-i18n@9.1.10
+  '@intlify/vite-plugin-vue-i18n': 6.0.0_vite@3.0.4+vue-i18n@9.1.10
   '@pinia/testing': 0.0.13_pinia@2.0.17+vue@3.2.37
   '@testing-library/cypress': 8.0.3_cypress@10.3.0
   '@testing-library/jest-dom': 5.16.4
@@ -1629,8 +1629,8 @@ packages:
     engines: {node: '>= 14'}
     dev: true
 
-  /@intlify/vite-plugin-vue-i18n/5.0.1_vite@3.0.4+vue-i18n@9.1.10:
-    resolution: {integrity: sha512-+LAUdm5PxGtLrUYgD2Wg9SINmLmhZqrcTnzccfqopca5NvaXWOPnQR4cQOkn82qLuyjWdCYC1BoqMHWBWX/MyQ==}
+  /@intlify/vite-plugin-vue-i18n/6.0.0_vite@3.0.4+vue-i18n@9.1.10:
+    resolution: {integrity: sha512-9hvd846YWACtSr6akOR57utxSP2205XJqVfidiQVZLTkHTVHjDhPiRg1ShdZBT909fzW2+71e2tgG4lRi4r87Q==}
     engines: {node: '>= 14.6'}
     peerDependencies:
       petite-vue-i18n: '*'
@@ -5910,7 +5910,7 @@ packages:
     dependencies:
       acorn: 8.8.0
       eslint-visitor-keys: 3.3.0
-      espree: 9.3.2
+      espree: 9.3.3
       semver: 7.3.7
     dev: true
 
