@@ -28,6 +28,8 @@
 
 - 📩 [Markdown Support](https://github.com/antfu/vite-plugin-md)
 
+- 🖨 Static-site generation (SSG) via [vite-ssg](https://github.com/antfu/vite-ssg)
+
 - 💡 [PostCSS](https://postcss.org/)
 
 - ⚙️ Unit testing with [Vitest](https://github.com/vitest-dev/vitest)
@@ -71,6 +73,7 @@
   - [`postcss-url`](https://github.com/postcss/postcss-url)
   - [`postcss-import`](https://github.com/postcss/postcss-import)
 - [vite-ssg](https://github.com/antfu/vite-ssg) - SSG Support
+  - [`vite-ssg-sitemap`](https://github.com/jbaubree/vite-ssg-sitemap) - Sitemap generator
 - [vite-svg-loader](https://github.com/jpkleemans/vite-svg-loader) - Vite plugin to load SVG files as Vue components
   - [`svgo`](https://github.com/svg/svgo) optimizing SVG files - enabled
 
@@ -101,7 +104,7 @@
 
 ### Development
 
-First you need to install the dependencies using **PNPM**
+First you need to install the dependencies using **pnpm**
 
 ```bash
 pnpm install
@@ -141,7 +144,6 @@ docker run --rm -it -p 5173:80 alibaba:latest
 
 - [ ] improve `README.md` and add `Contribute`, `Folder Structure` sections
 - [ ] [Use icons from any icon sets with classes](https://github.com/antfu/)
-- [ ] [`vite-ssg-sitemap`](https://github.com/jbaubree/vite-ssg-sitemap) - Sitemap generator
 - [ ] SSR Support
 - [ ] CSS engine - [Tailwind](https://tailwindcss.com/), [WindiCSS](https://windicss.org/), [UnoCSS](https://github.com/antfu/unocss)
 - [ ] Critical CSS - [critters](https://github.com/GoogleChromeLabs/critters)
