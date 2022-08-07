@@ -12,6 +12,7 @@ import ViteCompression from 'vite-plugin-compression'
 import Markdown from 'vite-plugin-md'
 import Prism from 'markdown-it-prism'
 import VueI18n from '@intlify/vite-plugin-vue-i18n'
+import svgLoader from 'vite-svg-loader'
 
 // https://github.com/antfu/unplugin-icons
 // for our icons
@@ -116,6 +117,24 @@ export default defineConfig(({ command }) => ({
     }),
     VueI18n({
       include: path.resolve(__dirname, './src/locales/**'),
+    }),
+    svgLoader({
+      svgo: true,
+      svgoConfig: {
+        multipass: true,
+        plugins: [
+          {
+              name: 'preset-default',
+              params: {
+                  overrides: {
+                      inlineStyles: {
+                          onlyMatchedOnce: false,
+                      },
+                  },
+              },
+          },
+        ],
+      }
     })
   ],
   server: {

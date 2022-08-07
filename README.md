@@ -40,6 +40,8 @@
 
 - 🤙🏻 [Reactivity Transform](https://vuejs.org/guide/extras/reactivity-transform.html) enabled
 
+- 🔁 [Vite SVG loader](https://github.com/jpkleemans/vite-svg-loader)
+
 <br>
 
 ## Pre-packed
@@ -69,6 +71,8 @@
   - [`postcss-url`](https://github.com/postcss/postcss-url)
   - [`postcss-import`](https://github.com/postcss/postcss-import)
 - [vite-ssg](https://github.com/antfu/vite-ssg) - SSG Support
+- [vite-svg-loader](https://github.com/jpkleemans/vite-svg-loader) - Vite plugin to load SVG files as Vue components
+  - [`svgo`](https://github.com/svg/svgo) optimizing SVG files - enabled
 
 ### Coding Style
 

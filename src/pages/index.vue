@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import AlibabaLogo from '../assets/logo.svg?component'
+
 useHead({ title: 'Home Page' })
 const { t } = useI18n()
 </script>
@@ -9,6 +11,7 @@ const { t } = useI18n()
       {{ t('test') }}
     </RouterLink>
   </div>
+  <AlibabaLogo id="logo" />
   <img alt="Vue logo" src="../assets/logo.png">
   <HelloWorld />
   <NewJsxFile />
@@ -24,3 +27,9 @@ const { t } = useI18n()
   }
 }
 </i18n>
+
+<style scoped>
+#logo {
+  width: 200px;
+}
+</style>
