@@ -1,6 +1,6 @@
 function NewJsxFile() {
   return (
-    <div className="jsx-file-wrapper">
+    <div className="my-2">
       New JSX File
     </div>
   )

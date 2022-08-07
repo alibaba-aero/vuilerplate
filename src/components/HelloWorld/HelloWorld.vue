@@ -21,31 +21,29 @@ function toggleLocale() {
 </script>
 
 <template>
-  <div>
-    <button data-testid="toggle-button" @click="toggleLocale">
+  <div class="mb-2">
+    <button class="mr-2" data-testid="toggle-button" @click="toggleLocale">
       {{ t('button') }} {{ t('changeLocale') }}
     </button>
     <span data-testid="local">
       {{ t('local') }}
     </span>
   </div>
-  <div class="wrapper">
-    <h1 data-testid="counter-pinia">
+  <div class="flex items-center justify-center mb-2">
+    <h1 class="mr-2" data-testid="counter-pinia">
       {{ t('couterPinia') }} {{ main.counter }}
     </h1>
     <button type="button" data-testid="add-btn-pinia" @click="incrementPinia">
       {{ t('addPinia') }}
     </button>
   </div>
-  <div class="wrapper">
-    <h1 data-testid="counter">
-      {{ t('counter') }} {{ count }}
-    </h1>
-    <button type="button" data-testid="add-btn" @click="increment">
-      {{ t('add') }}
-    </button>
-  </div>
-  <div class="test-wrapper">
+  <h1 class="mb-2" data-testid="counter">
+    {{ t('counter') }} {{ count }}
+  </h1>
+  <button class="mb-4" type="button" data-testid="add-btn" @click="increment">
+    {{ t('add') }}
+  </button>
+  <div>
     {{ t('postCssTest') }}
     <div class="test-wrapper__inner">
       {{ t('inner') }}
@@ -54,22 +52,16 @@ function toggleLocale() {
 </template>
 
 <style lang="postcss" scoped>
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 button {
-  margin-left: 10px;
+  @apply border rounded-2 hover:bg-blueGray p-2;
+  transition: background-color 200ms ease;
 }
 .test-wrapper {
   padding-top: 20px;
 
   &__inner {
+    @apply py-6 mt-6;
     background: rgb(234, 241, 244);
-    padding: 20px 0;
-    margin-top: 20px;
   }
 }
 </style>

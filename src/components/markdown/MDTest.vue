@@ -17,9 +17,8 @@ const { t } = useI18n()
 
 <style scoped lang="postcss">
 .wrapper {
-  margin: 20px 0;
-  padding: 20px 0;
-  background: lightsalmon;
+  @apply m-5 p-5 bg-lightblue rounded-lg;
+  border: 1px solid lightblue;
 }
 </style>
 
