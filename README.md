@@ -30,6 +30,8 @@
 
 - 🖨 Static-site generation (SSG) via [vite-ssg](https://github.com/antfu/vite-ssg)
 
+- 🦔 Critical CSS via [critters](https://github.com/GoogleChromeLabs/critters)
+
 - 💡 [PostCSS](https://postcss.org/)
 
 - ⚙️ Unit testing with [Vitest](https://github.com/vitest-dev/vitest)
@@ -44,9 +46,18 @@
 
 - 🔁 [Vite SVG loader](https://github.com/jpkleemans/vite-svg-loader)
 
+- [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
+
+- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+
 <br>
 
 ## Pre-packed
+
+### Icons
+
+- [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
+- [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
 ### Plugins
 
@@ -74,6 +85,7 @@
   - [`postcss-import`](https://github.com/postcss/postcss-import)
 - [vite-ssg](https://github.com/antfu/vite-ssg) - SSG Support
   - [`vite-ssg-sitemap`](https://github.com/jbaubree/vite-ssg-sitemap) - Sitemap generator
+  - [critters](https://github.com/GoogleChromeLabs/critters) - Critical CSS
 - [vite-svg-loader](https://github.com/jpkleemans/vite-svg-loader) - Vite plugin to load SVG files as Vue components
   - [`svgo`](https://github.com/svg/svgo) optimizing SVG files - enabled
 
@@ -143,13 +155,9 @@ docker run --rm -it -p 5173:80 alibaba:latest
 ## TODO
 
 - [ ] improve `README.md` and add `Contribute`, `Folder Structure` sections
-- [ ] [Use icons from any icon sets with classes](https://github.com/antfu/)
 - [ ] SSR Support
-- [ ] CSS engine - [Tailwind](https://tailwindcss.com/), [WindiCSS](https://windicss.org/), [UnoCSS](https://github.com/antfu/unocss)
-- [ ] Critical CSS - [critters](https://github.com/GoogleChromeLabs/critters)
 - [ ] [`vite-plugin-istanbul`](https://github.com/ifaxity/vite-plugin-istanbul)
 - [ ] Multi Device Plugin
-- [ ] reset or normalize CSS
 - [ ] [autoprefixer](https://github.com/postcss/autoprefixer)
 - [ ] remove hover on mobile
 - [ ] remove desktop `@media` on mobile build
