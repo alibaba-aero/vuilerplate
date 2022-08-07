@@ -18,6 +18,7 @@ specifiers:
   '@vueuse/head': 0.7.9
   '@vueuse/schema-org': 0.6.5
   c8: 7.12.0
+  critters: ^0.0.16
   cypress: ^10.3.0
   eslint: 8.21.0
   eslint-config-airbnb: 19.0.4
@@ -87,6 +88,7 @@ devDependencies:
   '@vitejs/plugin-vue-jsx': 2.0.0_vite@3.0.4+vue@3.2.37
   '@vue/test-utils': 2.0.2_vue@3.2.37
   c8: 7.12.0
+  critters: 0.0.16
   cypress: 10.3.0
   eslint: 8.21.0
   eslint-config-airbnb: 19.0.4_adirabqy37wo6rnav6uc45oywa
@@ -119,7 +121,7 @@ devDependencies:
   vite-plugin-pwa: 0.12.3_vite@3.0.4
   vite-plugin-vue-layouts: 0.7.0_2idawcohe3eegwclkuflddhqau
   vite-plugin-vue-markdown: 0.21.1_vite@3.0.4
-  vite-ssg: 0.20.2_fp5hl3q4gkghozyxjphjimguwm
+  vite-ssg: 0.20.2_thgl23324gg75myoeph36y4c5a
   vite-ssg-sitemap: 0.3.1
   vite-svg-loader: 3.4.0
   vitest: 0.21.0_jbo2wdnuxznsq2e5ps7kflwguu
@@ -3619,6 +3621,17 @@ packages:
       yaml: 1.10.2
     dev: true
 
+  /critters/0.0.16:
+    resolution: {integrity: sha512-JwjgmO6i3y6RWtLYmXwO5jMd+maZt8Tnfu7VVISmEWyQqfLpB8soBswf8/2bu6SBXxtKA68Al3c+qIG1ApT68A==}
+    dependencies:
+      chalk: 4.1.2
+      css-select: 4.3.0
+      parse5: 6.0.1
+      parse5-htmlparser2-tree-adapter: 6.0.1
+      postcss: 8.4.16
+      pretty-bytes: 5.6.0
+    dev: true
+
   /cross-spawn/7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
@@ -7100,6 +7113,16 @@ packages:
       lines-and-columns: 1.2.4
     dev: true
 
+  /parse5-htmlparser2-tree-adapter/6.0.1:
+    resolution: {integrity: sha512-qPuWvbLgvDGilKc5BoicRovlT4MtYT6JfJyBOMDsKoiT+GiuP5qyrPCnR9HcPECIJJmZh5jRndyNThnhhb/vlA==}
+    dependencies:
+      parse5: 6.0.1
+    dev: true
+
+  /parse5/6.0.1:
+    resolution: {integrity: sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==}
+    dev: true
+
   /parse5/7.0.0:
     resolution: {integrity: sha512-y/t8IXSPWTuRZqXc0ajH/UwDj4mnqLEbSttNbThcFhGrZuOyoyvNBO85PBp2jQa55wY9d07PBNjsK8ZP3K5U6g==}
     dependencies:
@@ -8880,7 +8903,7 @@ packages:
     resolution: {integrity: sha512-I/urEKBAF62r4b3jL4Usa3kpo/WQl4gC/SqQz2APHh+2ZLMbO0xstULfkVHIaRW6416vtfz2SlvysdvW+u1xkQ==}
     dev: true
 
-  /vite-ssg/0.20.2_fp5hl3q4gkghozyxjphjimguwm:
+  /vite-ssg/0.20.2_thgl23324gg75myoeph36y4c5a:
     resolution: {integrity: sha512-XtBgJEDrN9cL6pgzXvThrTS7Pm5zwZZnBt50EmL/O+QbdhD/ZjCbcp4GmIrWFBWjVBFcgfwgPccmWv3DAF6s/w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -8895,6 +8918,7 @@ packages:
         optional: true
     dependencies:
       '@vueuse/head': 0.7.9_vue@3.2.37
+      critters: 0.0.16
       fs-extra: 10.1.0
       html-minifier: 4.0.0
       html5parser: 2.0.2

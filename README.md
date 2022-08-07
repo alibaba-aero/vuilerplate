@@ -30,6 +30,8 @@
 
 - 🖨 Static-site generation (SSG) via [vite-ssg](https://github.com/antfu/vite-ssg)
 
+- 🦔 Critical CSS via [critters](https://github.com/GoogleChromeLabs/critters)
+
 - 💡 [PostCSS](https://postcss.org/)
 
 - ⚙️ Unit testing with [Vitest](https://github.com/vitest-dev/vitest)
@@ -83,6 +85,7 @@
   - [`postcss-import`](https://github.com/postcss/postcss-import)
 - [vite-ssg](https://github.com/antfu/vite-ssg) - SSG Support
   - [`vite-ssg-sitemap`](https://github.com/jbaubree/vite-ssg-sitemap) - Sitemap generator
+  - [critters](https://github.com/GoogleChromeLabs/critters) - Critical CSS
 - [vite-svg-loader](https://github.com/jpkleemans/vite-svg-loader) - Vite plugin to load SVG files as Vue components
   - [`svgo`](https://github.com/svg/svgo) optimizing SVG files - enabled
 
@@ -153,7 +156,6 @@ docker run --rm -it -p 5173:80 alibaba:latest
 
 - [ ] improve `README.md` and add `Contribute`, `Folder Structure` sections
 - [ ] SSR Support
-- [ ] Critical CSS - [critters](https://github.com/GoogleChromeLabs/critters)
 - [ ] [`vite-plugin-istanbul`](https://github.com/ifaxity/vite-plugin-istanbul)
 - [ ] Multi Device Plugin
 - [ ] [autoprefixer](https://github.com/postcss/autoprefixer)
