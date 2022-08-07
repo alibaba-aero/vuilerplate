@@ -12,3 +12,4 @@ coverage
 tsconfig.tsbuildinfo
 stats.html
 .vite-ssg-temp
+.vite-ssg-dist
