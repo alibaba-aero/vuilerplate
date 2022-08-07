@@ -2,7 +2,6 @@ node_modules
 dist
 .nuxt
 .DS_Store
-.vscode
 .idea
 coverage
 *-coverage
