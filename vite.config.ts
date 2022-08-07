@@ -14,6 +14,7 @@ import Markdown from 'vite-plugin-vue-markdown'
 import Prism from 'markdown-it-prism'
 import VueI18n from '@intlify/vite-plugin-vue-i18n'
 import svgLoader from 'vite-svg-loader'
+import generateSitemap from 'vite-ssg-sitemap'
 
 function removeDataTestAttrs(node: any) {
   if (node.type === 1 /* NodeTypes.ELEMENT */) {
@@ -159,6 +160,7 @@ export default defineConfig(({ command }) => ({
   ssgOptions: {
     script: 'async',
     formatting: 'minify',
+    onFinished() { generateSitemap() },
   },
   ssr: {
     // TODO: workaround until they support native ESM
