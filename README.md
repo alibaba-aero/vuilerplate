@@ -52,8 +52,6 @@
 
 <br>
 
-## Pre-packed
-
 ### Icons
 
 - [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
