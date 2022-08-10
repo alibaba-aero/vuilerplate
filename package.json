@@ -86,7 +86,7 @@
     "vite-ssg": "^0.20.2",
     "vite-ssg-sitemap": "^0.3.1",
     "vite-svg-loader": "^3.4.0",
-    "vitest": "0.21.0",
+    "vitest": "0.21.1",
     "vue-eslint-parser": "9.0.3",
     "vue-tsc": "0.39.5"
   }
