@@ -30,7 +30,7 @@
     "@vueuse/core": "9.1.0",
     "@vueuse/head": "0.7.9",
     "@vueuse/schema-org": "0.6.5",
-    "pinia": "2.0.17",
+    "pinia": "2.0.18",
     "prism-theme-vars": "^0.2.3",
     "vue": "3.2.37",
     "vue-i18n": "^9.2.2",
