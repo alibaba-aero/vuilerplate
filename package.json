@@ -41,7 +41,7 @@
     "@iconify-json/carbon": "1.1.7",
     "@intlify/eslint-plugin-vue-i18n": "2.0.0",
     "@intlify/vite-plugin-vue-i18n": "6.0.1",
-    "@pinia/testing": "0.0.13",
+    "@pinia/testing": "0.0.14",
     "@testing-library/cypress": "8.0.3",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/vue": "6.6.1",
