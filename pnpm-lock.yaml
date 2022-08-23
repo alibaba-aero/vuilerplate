@@ -31,7 +31,7 @@ specifiers:
   jsdom: 20.0.0
   lint-staged: 13.0.3
   markdown-it: 13.0.1
-  markdown-it-prism: 2.2.4
+  markdown-it-prism: 2.2.5
   pinia: 2.0.19
   postcss: 8.4.16
   postcss-html: 1.5.0
@@ -101,7 +101,7 @@ devDependencies:
   jsdom: 20.0.0
   lint-staged: 13.0.3
   markdown-it: 13.0.1
-  markdown-it-prism: 2.2.4
+  markdown-it-prism: 2.2.5
   postcss: 8.4.16
   postcss-html: 1.5.0
   postcss-import: 14.1.0_postcss@8.4.16
@@ -6474,11 +6474,11 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /markdown-it-prism/2.2.4:
-    resolution: {integrity: sha512-7oQVppKjiZqVQo7s7eLTIs3o/0hdvqAWDW8lvRel6eUCGD4iXjKbSZjvdHZFA2ZnCkQUF47kbvtWZDVQrv7zyQ==}
+  /markdown-it-prism/2.2.5:
+    resolution: {integrity: sha512-joodcO4elSJeeQGzf47hPxFDlzDpYme7aaJ/0TyTcAAKq7oSzaodJ2VpwRMy1rfoup8+v8CwEDcf8QKn08ixSw==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      prismjs: 1.28.0
+      prismjs: 1.29.0
     dev: true
 
   /markdown-it/13.0.1:
@@ -7294,8 +7294,8 @@ packages:
     resolution: {integrity: sha512-B3Pht+GCT87sZph7hMRLlCQXzCM0awW7Rhk08RavpqRW4LEQOeqN0uMG4QCWkul2tr8PB61YAOJGUrEW+1uuJA==}
     dev: false
 
-  /prismjs/1.28.0:
-    resolution: {integrity: sha512-8aaXdYvl1F7iC7Xm1spqSaY/OJBpYW3v+KJ+F17iYxvdc8sfjW194COK5wVhMZX45tGteiBQgdvD/nhxcRwylw==}
+  /prismjs/1.29.0:
+    resolution: {integrity: sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==}
     engines: {node: '>=6'}
     dev: true
 
