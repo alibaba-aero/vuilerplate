@@ -29,7 +29,7 @@
     "@unocss/reset": "0.45.8",
     "@vueuse/core": "9.1.0",
     "@vueuse/head": "0.7.9",
-    "@vueuse/schema-org": "0.6.5",
+    "@vueuse/schema-org": "1.0.2",
     "pinia": "2.0.19",
     "prism-theme-vars": "0.2.4",
     "vue": "3.2.37",

@@ -16,7 +16,7 @@ specifiers:
   '@vue/test-utils': 2.0.2
   '@vueuse/core': 9.1.0
   '@vueuse/head': 0.7.9
-  '@vueuse/schema-org': 0.6.5
+  '@vueuse/schema-org': 1.0.2
   c8: 7.12.0
   critters: 0.0.16
   cypress: 10.6.0
@@ -67,7 +67,7 @@ dependencies:
   '@unocss/reset': 0.45.8
   '@vueuse/core': 9.1.0_vue@3.2.37
   '@vueuse/head': 0.7.9_vue@3.2.37
-  '@vueuse/schema-org': 0.6.5_26a4nhf5pwzjzqc5ckt7ohj5zi
+  '@vueuse/schema-org': 1.0.2_j6bzmzd4ujpabbp5objtwxyjp4
   pinia: 2.0.19_j6bzmzd4ujpabbp5objtwxyjp4
   prism-theme-vars: 0.2.4
   vue: 3.2.37
@@ -2610,14 +2610,15 @@ packages:
   /@vueuse/metadata/9.1.0:
     resolution: {integrity: sha512-8OEhlog1iaAGTD3LICZ8oBGQdYeMwByvXetOtAOZCJOzyCRSwqwdggTsmVZZ1rkgYIEqgUBk942AsAPwM21s6A==}
 
-  /@vueuse/schema-org/0.6.5_26a4nhf5pwzjzqc5ckt7ohj5zi:
-    resolution: {integrity: sha512-qctjPdZdJUoChXQueQ1YU9Nla/ez+pKGo6QRvchfrLwndoZ8Sg6IFaFSAJCGr/CPjtZ+B8mTVWNNYTlr+Foz2A==}
+  /@vueuse/schema-org/1.0.2_j6bzmzd4ujpabbp5objtwxyjp4:
+    resolution: {integrity: sha512-hJEPKkOeOex9Ua8hNU2U4ExoRvnIpVqgoQkeSsE7nyN1SYQUmeLyNxDZi89K7jCiooVIVJGJnxFlYzftfhI3yw==}
     peerDependencies:
       vue: '>=3.2.0'
-      vue-router: ^4
     dependencies:
+      schema-org-graph-js: 0.5.0_typescript@4.7.4
       vue: 3.2.37
-      vue-router: 4.1.4_vue@3.2.37
+    transitivePeerDependencies:
+      - typescript
     dev: false
 
   /@vueuse/shared/9.1.0_vue@3.2.37:
@@ -3873,9 +3874,8 @@ packages:
       object-keys: 1.1.1
     dev: true
 
-  /defu/6.0.0:
-    resolution: {integrity: sha512-t2MZGLf1V2rV4VBZbWIaXKdX/mUcYW0n2znQZoADBkGGxYL8EWqCuCZBmJPJ/Yy9fofJkyuuSuo5GSwo0XdEgw==}
-    dev: true
+  /defu/6.1.0:
+    resolution: {integrity: sha512-pOFYRTIhoKujrmbTRhcW5lYQLBXw/dlTwfI8IguF1QCDJOcJzNH1w+YFjxqy6BAuJrClTy6MUE8q+oKJ2FLsIw==}
 
   /delayed-stream/1.0.0:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
@@ -6829,6 +6829,10 @@ packages:
       es-abstract: 1.20.1
     dev: true
 
+  /ohash/0.1.5:
+    resolution: {integrity: sha512-qynly1AFIpGWEAW88p6DhMNqok/Swb52/KsiU+Toi7er058Ptvno3tkfTML6wYcEgFgp2GsUziW4Nqn62ciuyw==}
+    dev: false
+
   /ohmyfetch/0.4.18:
     resolution: {integrity: sha512-MslzNrQzBLtZHmiZBI8QMOcMpdNFlK61OJ34nFNFynZ4v+4BonfCQ7VIN4EGXvGGq5zhDzgdJoY3o9S1l2T7KQ==}
     dependencies:
@@ -7665,6 +7669,26 @@ packages:
       xmlchars: 2.2.0
     dev: true
 
+  /schema-dts/1.1.0_typescript@4.7.4:
+    resolution: {integrity: sha512-vdmbs/5ycj4zyKpZIDqTcy+IZi4s7c38RVAYuDmRi7zgxUT8wRWPMLzg0jr7FjdVunYu9yZ00F3+XcZTTFcTOQ==}
+    peerDependencies:
+      typescript: '>=4.1.0'
+    dependencies:
+      typescript: 4.7.4
+    dev: false
+
+  /schema-org-graph-js/0.5.0_typescript@4.7.4:
+    resolution: {integrity: sha512-GvGQxufFfOLAl3SH/BcRITnVO77y5acwnkJ8xEhQRvcyPyIGyDzgTBsFF3Q1GLbOh1smv8HeDBZVgIKBdnUJqg==}
+    dependencies:
+      defu: 6.1.0
+      ohash: 0.1.5
+      schema-dts: 1.1.0_typescript@4.7.4
+      ufo: 0.8.5
+      utility-types: 3.10.0
+    transitivePeerDependencies:
+      - typescript
+    dev: false
+
   /scule/0.3.2:
     resolution: {integrity: sha512-zIvPdjOH8fv8CgrPT5eqtxHQXmPNnV/vHJYffZhE43KZkvULvpCTvOt1HPlFaCZx287INL9qaqrZg34e8NgI4g==}
     dev: true
@@ -8435,7 +8459,6 @@ packages:
 
   /ufo/0.8.5:
     resolution: {integrity: sha512-e4+UtA5IRO+ha6hYklwj6r7BjiGMxS0O+UaSg9HbaTefg4kMkzj4tXzEBajRR+wkxf+golgAWKzLbytCUDMJAA==}
-    dev: true
 
   /uglify-js/3.16.1:
     resolution: {integrity: sha512-X5BGTIDH8U6IQ1TIRP62YC36k+ULAa1d59BxlWvPUJ1NkW5L3FwcGfEzuVvGmhJFBu0YJ5Ge25tmRISqCmLiRQ==}
@@ -8457,7 +8480,7 @@ packages:
     resolution: {integrity: sha512-YMnPPUSfW0pT4Zzy4inM8tRHJZmhH+KcuFW/3qxkLKPhswEw18gQYe1jt57jY6ctFB0fnpiCpQ2Jtkbg4y/IPA==}
     dependencies:
       '@antfu/utils': 0.5.2
-      defu: 6.0.0
+      defu: 6.1.0
       jiti: 1.14.0
     dev: true
 
@@ -8697,6 +8720,11 @@ packages:
   /util-deprecate/1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
+
+  /utility-types/3.10.0:
+    resolution: {integrity: sha512-O11mqxmi7wMKCo6HKFt5AhO4BwY3VV68YU07tgxfz8zJTIxr4BpsezN49Ffwy9j3ZpwwJp4fkRwjRzq3uWE6Rg==}
+    engines: {node: '>= 4'}
+    dev: false
 
   /uuid/8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
