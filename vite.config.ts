@@ -1,4 +1,5 @@
-const path = require('path')
+// @ts-ignore
+import path from 'path'
 import { defineConfig } from 'vitest/config'
 import Vue from '@vitejs/plugin-vue'
 import Layouts from 'vite-plugin-vue-layouts'
@@ -7,12 +8,24 @@ import Pages from 'vite-plugin-pages'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import VueJsx from '@vitejs/plugin-vue-jsx'
-import Visualizer from 'rollup-plugin-visualizer'
+import { visualizer as Visualizer } from 'rollup-plugin-visualizer'
 import ViteCompression from 'vite-plugin-compression'
-import Markdown from 'vite-plugin-md'
+import Markdown from 'vite-plugin-vue-markdown'
 import Prism from 'markdown-it-prism'
 import VueI18n from '@intlify/vite-plugin-vue-i18n'
+import SvgLoader from 'vite-svg-loader'
+import Unocss from 'unocss/vite'
+import generateSitemap from 'vite-ssg-sitemap'
 
+function removeDataTestAttrs(node: any) {
+  if (node.type === 1 /* NodeTypes.ELEMENT */) {
+    node.props = node.props.filter((prop: any) =>
+      prop.type === 6 /* NodeTypes.ATTRIBUTE */
+        ? prop.name !== 'data-testid'
+        : true
+    )
+  }
+}
 // https://github.com/antfu/unplugin-icons
 // for our icons
 
@@ -31,6 +44,11 @@ export default defineConfig(({ command }) => ({
     Vue({
       include: [/\.vue$/, /\.md$/],
       reactivityTransform: true,
+      template: {
+        compilerOptions: {
+          nodeTransforms: process.env.MODE === 'production' ? [removeDataTestAttrs] : [],
+        }
+      }
     }),
     Pages({
       extensions: ['vue', 'md'],
@@ -116,14 +134,39 @@ export default defineConfig(({ command }) => ({
     }),
     VueI18n({
       include: path.resolve(__dirname, './src/locales/**'),
-    })
+    }),
+    SvgLoader({
+      svgo: true,
+      svgoConfig: {
+        multipass: true,
+        plugins: [
+          {
+            name: 'preset-default',
+            params: {
+              overrides: {
+                inlineStyles: {
+                  onlyMatchedOnce: false,
+                },
+              },
+            },
+          },
+        ],
+      }
+    }),
+    Unocss(),
   ],
   server: {
     port: 5173,
     host: '127.0.0.1'
   },
   ssgOptions: {
-    script: 'async'
+    script: 'async',
+    formatting: 'minify',
+    onFinished() { generateSitemap() },
+  },
+  ssr: {
+    // TODO: workaround until they support native ESM
+    noExternal: ['workbox-window', /vue-i18n/],
   },
   test: {
     // environment: 'jsdom',

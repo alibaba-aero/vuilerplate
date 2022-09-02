@@ -1,9 +1,15 @@
-import routes from 'virtual:generated-pages'
+import generatedRoutes from 'virtual:generated-pages'
+import { setupLayouts } from 'virtual:generated-layouts'
 import { createPinia } from 'pinia'
 import { ViteSSG } from 'vite-ssg'
 import App from './App.vue'
 
-ViteSSG(
+import '@unocss/reset/tailwind.css'
+import 'uno.css'
+
+const routes = setupLayouts(generatedRoutes)
+
+export const createApp = ViteSSG(
   App,
   { routes },
   ({ app, router, initialState }) => {

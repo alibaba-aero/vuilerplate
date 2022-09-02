@@ -13,7 +13,7 @@ html:not(.dark) {
   --prism-function: #849145;
   --prism-deleted: #9A050F;
   --prism-class: #2B91AF;
-  --prism-builtin: #800000;
+  --prism-builtin: maroon;
   --prism-property: #CE9178;
   --prism-regex: #AD502B;
 }

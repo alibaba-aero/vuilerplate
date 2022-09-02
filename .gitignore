@@ -2,7 +2,6 @@ node_modules
 dist
 .nuxt
 .DS_Store
-.vscode
 .idea
 coverage
 *-coverage
@@ -12,3 +11,4 @@ coverage
 tsconfig.tsbuildinfo
 stats.html
 .vite-ssg-temp
+.vite-ssg-dist
