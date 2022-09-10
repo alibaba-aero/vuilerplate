@@ -19,7 +19,7 @@ specifiers:
   '@vueuse/schema-org': 1.0.2
   c8: 7.12.0
   critters: 0.0.16
-  cypress: 10.6.0
+  cypress: 10.7.0
   eslint: 8.22.0
   eslint-config-airbnb: 19.0.4
   eslint-config-airbnb-typescript: 17.0.0
@@ -80,7 +80,7 @@ devDependencies:
   '@intlify/eslint-plugin-vue-i18n': 2.0.0_eslint@8.22.0
   '@intlify/vite-plugin-vue-i18n': 6.0.1_vite@3.0.9+vue-i18n@9.2.2
   '@pinia/testing': 0.0.14_pinia@2.0.21+vue@3.2.37
-  '@testing-library/cypress': 8.0.3_cypress@10.6.0
+  '@testing-library/cypress': 8.0.3_cypress@10.7.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/vue': 6.6.1_vue@3.2.37
   '@typescript-eslint/parser': 5.36.2_4rv7y5c6xz3vfxwhbrcxxi73bq
@@ -89,7 +89,7 @@ devDependencies:
   '@vue/test-utils': 2.0.2_vue@3.2.37
   c8: 7.12.0
   critters: 0.0.16
-  cypress: 10.6.0
+  cypress: 10.7.0
   eslint: 8.22.0
   eslint-config-airbnb: 19.0.4_a73gqemto6e3fuphytuibvenam
   eslint-config-airbnb-typescript: 17.0.0_rp6sxvaar57pksaoraovqbwooq
@@ -1883,7 +1883,7 @@ packages:
       string.prototype.matchall: 4.0.7
     dev: true
 
-  /@testing-library/cypress/8.0.3_cypress@10.6.0:
+  /@testing-library/cypress/8.0.3_cypress@10.7.0:
     resolution: {integrity: sha512-nY2YaSbmuPo5k6kL0iLj/pGPPfka3iwb3kpTx8QN/vOCns92Saz9wfACqB8FJzcR7+lfA4d5HUOWqmTddBzczg==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -1891,7 +1891,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@testing-library/dom': 8.14.0
-      cypress: 10.6.0
+      cypress: 10.7.0
     dev: true
 
   /@testing-library/dom/8.14.0:
@@ -3695,8 +3695,8 @@ packages:
     resolution: {integrity: sha512-d4ZVpCW31eWwCMe1YT3ur7mUDnTXbgwyzaL320DrcRT45rfjYxkt5QWLrmOJ+/UEAI2+fQgKe/fCjR8l4TpRgw==}
     dev: true
 
-  /cypress/10.6.0:
-    resolution: {integrity: sha512-6sOpHjostp8gcLO34p6r/Ci342lBs8S5z9/eb3ZCQ22w2cIhMWGUoGKkosabPBfKcvRS9BE4UxybBtlIs8gTQA==}
+  /cypress/10.7.0:
+    resolution: {integrity: sha512-gTFvjrUoBnqPPOu9Vl5SBHuFlzx/Wxg/ZXIz2H4lzoOLFelKeF7mbwYUOzgzgF0oieU2WhJAestQdkgwJMMTvQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
