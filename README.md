@@ -86,6 +86,7 @@
   - [critters](https://github.com/GoogleChromeLabs/critters) - Critical CSS
 - [vite-svg-loader](https://github.com/jpkleemans/vite-svg-loader) - Vite plugin to load SVG files as Vue components
   - [`svgo`](https://github.com/svg/svgo) optimizing SVG files - enabled
+- [`vite-plugin-istanbul`](https://github.com/ifaxity/vite-plugin-istanbul)
 
 ### Coding Style
 
@@ -154,7 +155,6 @@ docker run --rm -it -p 5173:80 alibaba:latest
 
 - [ ] improve `README.md` and add `Contribute`, `Folder Structure` sections
 - [ ] SSR Support
-- [ ] [`vite-plugin-istanbul`](https://github.com/ifaxity/vite-plugin-istanbul)
 - [ ] Multi Device Plugin
 - [ ] [autoprefixer](https://github.com/postcss/autoprefixer)
 - [ ] remove hover on mobile

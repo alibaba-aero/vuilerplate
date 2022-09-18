@@ -16,6 +16,7 @@ import VueI18n from '@intlify/vite-plugin-vue-i18n'
 import SvgLoader from 'vite-svg-loader'
 import Unocss from 'unocss/vite'
 import generateSitemap from 'vite-ssg-sitemap'
+import istanbul from 'vite-plugin-istanbul';
 
 function removeDataTestAttrs(node: any) {
   if (node.type === 1 /* NodeTypes.ELEMENT */) {
@@ -154,6 +155,12 @@ export default defineConfig(({ command }) => ({
       }
     }),
     Unocss(),
+    istanbul({
+      include: 'src/*',
+      exclude: ['node_modules', 'test/'],
+      extension: [ '.js', '.ts', '.vue' , '.tsx'],
+      requireEnv: true,
+    }),
   ],
   server: {
     port: 5173,
