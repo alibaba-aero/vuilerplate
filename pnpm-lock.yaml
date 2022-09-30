@@ -55,7 +55,7 @@ specifiers:
   vite-plugin-vue-layouts: 0.7.0
   vite-plugin-vue-markdown: 0.21.1
   vite-ssg: 0.20.2
-  vite-ssg-sitemap: 0.4.1
+  vite-ssg-sitemap: 0.4.3
   vite-svg-loader: 3.4.0
   vitest: 0.22.1
   vue: 3.2.40
@@ -124,7 +124,7 @@ devDependencies:
   vite-plugin-vue-layouts: 0.7.0_xambrtbbhiaipqgixviga5z3bm
   vite-plugin-vue-markdown: 0.21.1_vite@3.0.9
   vite-ssg: 0.20.2_eddyhoqcwexwycgpdukbsh3fta
-  vite-ssg-sitemap: 0.4.1
+  vite-ssg-sitemap: 0.4.3
   vite-svg-loader: 3.4.0
   vitest: 0.22.1_e3y3tk5wocdgktiwrgnxpnd3nq
   vue-eslint-parser: 9.1.0_eslint@8.23.1
@@ -8923,8 +8923,8 @@ packages:
       vite: 3.0.9
     dev: true
 
-  /vite-ssg-sitemap/0.4.1:
-    resolution: {integrity: sha512-M6ZephqLGe2BMKRK3ZJYTxi04QgRfTqgyvjbEy8QsVi2UcxCdLSQ5FEvVSEWj+tIU3Nq1kmscs2grmmPauHy2g==}
+  /vite-ssg-sitemap/0.4.3:
+    resolution: {integrity: sha512-9ZIRBRCgM1Q4RtXXEBHIu8gotbx9LCnHZOZXtdSzR0DnjN9H5IYGY3yGoxI6VX8dScXiluxOODFlNlr7ydyI9A==}
     dev: true
 
   /vite-ssg/0.20.2_eddyhoqcwexwycgpdukbsh3fta:
