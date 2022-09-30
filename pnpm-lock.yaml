@@ -31,7 +31,7 @@ specifiers:
   jsdom: 20.0.0
   lint-staged: 13.0.3
   markdown-it: 13.0.1
-  markdown-it-prism: 2.2.5
+  markdown-it-prism: 2.3.0
   pinia: 2.0.22
   postcss: 8.4.17
   postcss-html: 1.5.0
@@ -102,7 +102,7 @@ devDependencies:
   jsdom: 20.0.0
   lint-staged: 13.0.3
   markdown-it: 13.0.1
-  markdown-it-prism: 2.2.5
+  markdown-it-prism: 2.3.0
   postcss: 8.4.17
   postcss-html: 1.5.0
   postcss-import: 14.1.0_postcss@8.4.17
@@ -6605,8 +6605,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /markdown-it-prism/2.2.5:
-    resolution: {integrity: sha512-joodcO4elSJeeQGzf47hPxFDlzDpYme7aaJ/0TyTcAAKq7oSzaodJ2VpwRMy1rfoup8+v8CwEDcf8QKn08ixSw==}
+  /markdown-it-prism/2.3.0:
+    resolution: {integrity: sha512-ePtHY80gZyeje4bn3R3SL0jpd1C9HFaYffJW2Ma0YD+tspqa2v9TuVwUyFwboFu4jnFNcO8oPQROgbcYJbmBvw==}
     engines: {node: '>=6.0.0'}
     dependencies:
       prismjs: 1.29.0
