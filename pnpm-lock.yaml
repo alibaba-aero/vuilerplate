@@ -10,7 +10,7 @@ specifiers:
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/vue': 6.6.1
   '@typescript-eslint/parser': 5.38.1
-  '@unocss/reset': 0.45.21
+  '@unocss/reset': 0.45.26
   '@vitejs/plugin-vue': 3.1.0
   '@vitejs/plugin-vue-jsx': 2.0.1
   '@vue/test-utils': 2.0.2
@@ -65,7 +65,7 @@ specifiers:
   vue-tsc: 0.40.13
 
 dependencies:
-  '@unocss/reset': 0.45.21
+  '@unocss/reset': 0.45.26
   '@vueuse/core': 9.1.1_vue@3.2.40
   '@vueuse/head': 0.7.12_vue@3.2.40
   '@vueuse/schema-org': 1.0.2_lkgxmynzgulk7qrgf4psevjapq
@@ -2404,13 +2404,8 @@ packages:
       '@unocss/preset-mini': 0.45.26
     dev: true
 
-  /@unocss/reset/0.45.21:
-    resolution: {integrity: sha512-9JyC8P8qci1fuUvIOZXfO0jsug2YOUlFq8bx904J4sQ33qFl4NhkrpXAU+kFs0HS5SvgUx7BDfLY7W7BGG3RxQ==}
-    dev: false
-
   /@unocss/reset/0.45.26:
     resolution: {integrity: sha512-9X0cSvGPXdZ1KAuiWzFWtcoyfC7b8j4GYHr4lDXRkPC5oI3CJhw4WcdvzTHVPqOX2CKqq731H4GhcQ5c5LBuHA==}
-    dev: true
 
   /@unocss/scope/0.45.26:
     resolution: {integrity: sha512-t5ADmEW9Rhf4Ku0DHwgPoy2mTU0eRrpx6QfXFWtWC+ZtHsjOcC9RXgWYXKZmINtiY+FzQ8A+v/k0wlIuvhJF7g==}
