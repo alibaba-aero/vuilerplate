@@ -41,7 +41,7 @@ specifiers:
   prism-theme-vars: 0.2.4
   rollup-plugin-visualizer: 5.8.2
   standard-version: 9.5.0
-  stylelint: 14.11.0
+  stylelint: 14.13.0
   stylelint-config-recommended-vue: 1.4.0
   typescript: 4.8.4
   unocss: 0.45.26
@@ -110,8 +110,8 @@ devDependencies:
   postcss-url: 10.1.3_postcss@8.4.17
   rollup-plugin-visualizer: 5.8.2
   standard-version: 9.5.0
-  stylelint: 14.11.0
-  stylelint-config-recommended-vue: 1.4.0_35nbotopgds64plu275w6fpq24
+  stylelint: 14.13.0
+  stylelint-config-recommended-vue: 1.4.0_xhez2jbrlm5gsznvnryddq5rcu
   typescript: 4.8.4
   unocss: 0.45.26_vite@3.0.9
   unplugin-auto-import: 0.11.2_jfxn32i2eq37u3jpfk3zc3f4hy
@@ -8145,7 +8145,7 @@ packages:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: true
 
-  /stylelint-config-html/1.0.0_35nbotopgds64plu275w6fpq24:
+  /stylelint-config-html/1.0.0_xhez2jbrlm5gsznvnryddq5rcu:
     resolution: {integrity: sha512-rKQUUWDpaYC7ybsS6tLxddjn6DxhjSIXybElSmcTyVQj3ExhmU3q+l41ktrlwHRyY0M5SkTkZiwngvYPYmsgSQ==}
     engines: {node: ^12 || >=14}
     peerDependencies:
@@ -8153,10 +8153,10 @@ packages:
       stylelint: '>=14.0.0'
     dependencies:
       postcss-html: 1.5.0
-      stylelint: 14.11.0
+      stylelint: 14.13.0
     dev: true
 
-  /stylelint-config-recommended-vue/1.4.0_35nbotopgds64plu275w6fpq24:
+  /stylelint-config-recommended-vue/1.4.0_xhez2jbrlm5gsznvnryddq5rcu:
     resolution: {integrity: sha512-DVJqyX2KvMCn9U0+keL12r7xlsH26K4Vg8NrIZuq5MoF7g82DpMp326Om4E0Q+Il1o+bTHuUyejf2XAI0iD04Q==}
     engines: {node: ^12 || >=14}
     peerDependencies:
@@ -8165,21 +8165,21 @@ packages:
     dependencies:
       postcss-html: 1.5.0
       semver: 7.3.7
-      stylelint: 14.11.0
-      stylelint-config-html: 1.0.0_35nbotopgds64plu275w6fpq24
-      stylelint-config-recommended: 8.0.0_stylelint@14.11.0
+      stylelint: 14.13.0
+      stylelint-config-html: 1.0.0_xhez2jbrlm5gsznvnryddq5rcu
+      stylelint-config-recommended: 8.0.0_stylelint@14.13.0
     dev: true
 
-  /stylelint-config-recommended/8.0.0_stylelint@14.11.0:
+  /stylelint-config-recommended/8.0.0_stylelint@14.13.0:
     resolution: {integrity: sha512-IK6dWvE000+xBv9jbnHOnBq01gt6HGVB2ZTsot+QsMpe82doDQ9hvplxfv4YnpEuUwVGGd9y6nbaAnhrjcxhZQ==}
     peerDependencies:
       stylelint: ^14.8.0
     dependencies:
-      stylelint: 14.11.0
+      stylelint: 14.13.0
     dev: true
 
-  /stylelint/14.11.0:
-    resolution: {integrity: sha512-OTLjLPxpvGtojEfpESWM8Ir64Z01E89xsisaBMUP/ngOx1+4VG2DPRcUyCCiin9Rd3kPXPsh/uwHd9eqnvhsYA==}
+  /stylelint/14.13.0:
+    resolution: {integrity: sha512-NJSAdloiAB/jgVJKxMR90mWlctvmeBFGFVUvyKngi9+j/qPSJ5ZB+u8jOmGbLTnS7OHrII9NFGehPRyar8U5vg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -8189,7 +8189,7 @@ packages:
       cosmiconfig: 7.0.1
       css-functions-list: 3.1.0
       debug: 4.3.4
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       fastest-levenshtein: 1.0.16
       file-entry-cache: 6.0.1
       global-modules: 2.0.0
@@ -8216,7 +8216,7 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       style-search: 0.1.0
-      supports-hyperlinks: 2.2.0
+      supports-hyperlinks: 2.3.0
       svg-tags: 1.0.0
       table: 6.8.0
       v8-compile-cache: 2.3.0
@@ -8246,8 +8246,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /supports-hyperlinks/2.2.0:
-    resolution: {integrity: sha512-6sXEzV5+I5j8Bmq9/vUphGRM/RJNT9SCURJLjwfOg51heRtguGWDzcaBlgAzKhQa0EVNpPEKzQuBwZ8S8WaCeQ==}
+  /supports-hyperlinks/2.3.0:
+    resolution: {integrity: sha512-RpsAZlpWcDwOPQA22aCH4J0t7L8JmAvsCxfOSEwm7cQs3LshN36QaTkwd70DnBOXDWGssw2eUoc8CaRWT0XunA==}
     engines: {node: '>=8'}
     dependencies:
       has-flag: 4.0.0
