@@ -57,7 +57,7 @@ specifiers:
   vite-ssg: 0.20.2
   vite-ssg-sitemap: 0.4.3
   vite-svg-loader: 3.4.0
-  vitest: 0.22.1
+  vitest: 0.23.4
   vue: 3.2.40
   vue-eslint-parser: 9.1.0
   vue-i18n: 9.2.2
@@ -126,7 +126,7 @@ devDependencies:
   vite-ssg: 0.20.2_eddyhoqcwexwycgpdukbsh3fta
   vite-ssg-sitemap: 0.4.3
   vite-svg-loader: 3.4.0
-  vitest: 0.22.1_e3y3tk5wocdgktiwrgnxpnd3nq
+  vitest: 0.23.4_e3y3tk5wocdgktiwrgnxpnd3nq
   vue-eslint-parser: 9.1.0_eslint@8.23.1
   vue-tsc: 0.40.13_typescript@4.8.4
 
@@ -8135,8 +8135,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /strip-literal/0.4.0:
-    resolution: {integrity: sha512-ql/sBDoJOybTKSIOWrrh8kgUEMjXMwRAkZTD0EwiwxQH/6tTPkZvMIEjp0CRlpi6V5FMiJyvxeRkEi1KrGISoA==}
+  /strip-literal/0.4.2:
+    resolution: {integrity: sha512-pv48ybn4iE1O9RLgCAN0iU4Xv7RlBTiit6DKmMiErbs9x1wH6vXBs45tWc0H5wUIF6TLTrKweqkmYF/iraQKNw==}
     dependencies:
       acorn: 8.8.0
     dev: true
@@ -8389,8 +8389,12 @@ packages:
       readable-stream: 3.6.0
     dev: true
 
-  /tinypool/0.2.4:
-    resolution: {integrity: sha512-Vs3rhkUH6Qq1t5bqtb816oT+HeJTXfwt2cbPH17sWHIYKTotQIFPk3tf2fgqRrVyMDVOc1EnPgzIxfIulXVzwQ==}
+  /tinybench/2.2.1:
+    resolution: {integrity: sha512-VxB1P8DUhpCC1j2WtKgFYpv3SwU7vtnfmG29cK7hXcqyD7lLiq6SYCVpDceoAT99mvTN+V8Ay4OdtZQbB72+Sw==}
+    dev: true
+
+  /tinypool/0.3.0:
+    resolution: {integrity: sha512-NX5KeqHOBZU6Bc0xj9Vr5Szbb1j8tUHIeD18s41aDJaPeC5QTdEhK0SpdpUrZlj2nv5cctNcSjaKNanXlfcVEQ==}
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -8626,7 +8630,7 @@ packages:
       mlly: 0.5.7
       pathe: 0.3.5
       scule: 0.3.2
-      strip-literal: 0.4.0
+      strip-literal: 0.4.2
       unplugin: 0.9.5_vite@3.0.9
     transitivePeerDependencies:
       - esbuild
@@ -9031,8 +9035,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.22.1_e3y3tk5wocdgktiwrgnxpnd3nq:
-    resolution: {integrity: sha512-+x28YTnSLth4KbXg7MCzoDAzPJlJex7YgiZbUh6YLp0/4PqVZ7q7/zyfdL0OaPtKTpNiQFPpMC8Y2MSzk8F7dw==}
+  /vitest/0.23.4_e3y3tk5wocdgktiwrgnxpnd3nq:
+    resolution: {integrity: sha512-iukBNWqQAv8EKDBUNntspLp9SfpaVFbmzmM0sNcnTxASQZMzRw3PsM6DMlsHiI+I6GeO5/sYDg3ecpC+SNFLrQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -9061,7 +9065,9 @@ packages:
       happy-dom: 6.0.4
       jsdom: 20.0.0
       local-pkg: 0.4.2
-      tinypool: 0.2.4
+      strip-literal: 0.4.2
+      tinybench: 2.2.1
+      tinypool: 0.3.0
       tinyspy: 1.0.2
       vite: 3.0.9
     transitivePeerDependencies:
