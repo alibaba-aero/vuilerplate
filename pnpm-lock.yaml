@@ -50,7 +50,7 @@ specifiers:
   vite: 3.0.9
   vite-plugin-compression: 0.5.1
   vite-plugin-istanbul: 3.0.1
-  vite-plugin-pages: 0.25.0
+  vite-plugin-pages: 0.26.0
   vite-plugin-pwa: 0.13.1
   vite-plugin-vue-layouts: 0.7.0
   vite-plugin-vue-markdown: 0.21.1
@@ -119,7 +119,7 @@ devDependencies:
   vite: 3.0.9
   vite-plugin-compression: 0.5.1_vite@3.0.9
   vite-plugin-istanbul: 3.0.1
-  vite-plugin-pages: 0.25.0_vite@3.0.9
+  vite-plugin-pages: 0.26.0_vite@3.0.9
   vite-plugin-pwa: 0.13.1_vite@3.0.9
   vite-plugin-vue-layouts: 0.7.0_xambrtbbhiaipqgixviga5z3bm
   vite-plugin-vue-markdown: 0.21.1_vite@3.0.9
@@ -6461,11 +6461,6 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /local-pkg/0.4.1:
-    resolution: {integrity: sha512-lL87ytIGP2FU5PWwNDo0w3WhIo2gopIAxPg9RxDYF7m4rr5ahuZxP22xnJHIvaLTe4Z9P6uKKY2UHiwyB4pcrw==}
-    engines: {node: '>=14'}
-    dev: true
-
   /local-pkg/0.4.2:
     resolution: {integrity: sha512-mlERgSPrbxU3BP4qBqAvvwlgW4MTg78iwJdGGnv7kibKjWcJksrG3t6LB5lXI93wXRDvG4NpUgJFmTG4T6rdrg==}
     engines: {node: '>=14'}
@@ -8887,8 +8882,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-pages/0.25.0_vite@3.0.9:
-    resolution: {integrity: sha512-q0SX2iSw0UrTnivkzsPb19ZxamShq1nE/e/CKOe8+uVg70/e14uJuzKnw7dZ2omPjmV9Lhks38nzJL6RDRGmeA==}
+  /vite-plugin-pages/0.26.0_vite@3.0.9:
+    resolution: {integrity: sha512-yJZvwHEt7puYIf19S89IvkDsWPjWleSied4H8hmdW6i8buCA93z1UAU1ipW1d8fNKrC4FzXsUHHbPm6+kl1p9w==}
     peerDependencies:
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
       vite: ^2.0.0 || ^3.0.0-0
@@ -8900,9 +8895,9 @@ packages:
       debug: 4.3.4
       deep-equal: 2.0.5
       extract-comments: 1.1.0
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       json5: 2.2.1
-      local-pkg: 0.4.1
+      local-pkg: 0.4.2
       picocolors: 1.0.0
       vite: 3.0.9
       yaml: 2.1.1
