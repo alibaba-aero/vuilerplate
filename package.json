@@ -28,7 +28,7 @@
   "dependencies": {
     "@unocss/reset": "0.45.26",
     "@vueuse/core": "9.1.1",
-    "@vueuse/head": "0.9.7",
+    "@vueuse/head": "0.9.8",
     "@vueuse/schema-org": "1.0.2",
     "pinia": "2.0.22",
     "prism-theme-vars": "0.2.4",

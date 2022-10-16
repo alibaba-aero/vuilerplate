@@ -15,7 +15,7 @@ specifiers:
   '@vitejs/plugin-vue-jsx': 2.0.1
   '@vue/test-utils': 2.1.0
   '@vueuse/core': 9.1.1
-  '@vueuse/head': 0.9.7
+  '@vueuse/head': 0.9.8
   '@vueuse/schema-org': 1.0.2
   c8: 7.12.0
   critters: 0.0.16
@@ -67,7 +67,7 @@ specifiers:
 dependencies:
   '@unocss/reset': 0.45.26
   '@vueuse/core': 9.1.1_vue@3.2.40
-  '@vueuse/head': 0.9.7_vue@3.2.40
+  '@vueuse/head': 0.9.8_vue@3.2.40
   '@vueuse/schema-org': 1.0.2_bfjwoga25wxjazzogo7o372nwq
   pinia: 2.0.22_bfjwoga25wxjazzogo7o372nwq
   prism-theme-vars: 0.2.4
@@ -123,7 +123,7 @@ devDependencies:
   vite-plugin-pwa: 0.13.1_vite@3.0.9
   vite-plugin-vue-layouts: 0.7.0_xambrtbbhiaipqgixviga5z3bm
   vite-plugin-vue-markdown: 0.21.1_vite@3.0.9
-  vite-ssg: 0.21.1_faucgwkn62om3zdgqaukv6d4i4
+  vite-ssg: 0.21.1_oqcd5gzgouyl5xi2ai7agkgv5y
   vite-ssg-sitemap: 0.4.3
   vite-svg-loader: 3.6.0
   vitest: 0.23.4_e3y3tk5wocdgktiwrgnxpnd3nq
@@ -2715,8 +2715,8 @@ packages:
       - '@vue/composition-api'
       - vue
 
-  /@vueuse/head/0.9.7_vue@3.2.40:
-    resolution: {integrity: sha512-zuU4qpDEVoDg/XY5phQWZY7/W4M6IoenaJMu5ZGY4plzOzBkkTwmq7jA6z9nxMYo2n1z5RaU5WL9ypZrZkQOjQ==}
+  /@vueuse/head/0.9.8_vue@3.2.40:
+    resolution: {integrity: sha512-zt8+JksoVFKxRvmABlaUHA62w+8nOcD8cJnaJ0+SHcr6xaIP3GXgh7/n2TzUoWw4l3d9UxRNs+tapgHdsQ7RbA==}
     peerDependencies:
       vue: '>=2.7 || >=3'
     dependencies:
@@ -9033,7 +9033,7 @@ packages:
     resolution: {integrity: sha512-9ZIRBRCgM1Q4RtXXEBHIu8gotbx9LCnHZOZXtdSzR0DnjN9H5IYGY3yGoxI6VX8dScXiluxOODFlNlr7ydyI9A==}
     dev: true
 
-  /vite-ssg/0.21.1_faucgwkn62om3zdgqaukv6d4i4:
+  /vite-ssg/0.21.1_oqcd5gzgouyl5xi2ai7agkgv5y:
     resolution: {integrity: sha512-P39lT+ndBbN83SsfrDSc/uU9IHp7BUjYy7ly3I0jB0L+CvI1/R/bJTOkFikw2mS0FDkPTUN2bCqD6VTshtsO2w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -9049,7 +9049,7 @@ packages:
       vue-router:
         optional: true
     dependencies:
-      '@vueuse/head': 0.9.7_vue@3.2.40
+      '@vueuse/head': 0.9.8_vue@3.2.40
       critters: 0.0.16
       fs-extra: 10.1.0
       html-minifier: 4.0.0
