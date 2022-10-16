@@ -56,7 +56,7 @@ specifiers:
   vite-plugin-vue-markdown: 0.21.1
   vite-ssg: 0.21.1
   vite-ssg-sitemap: 0.4.3
-  vite-svg-loader: 3.4.0
+  vite-svg-loader: 3.6.0
   vitest: 0.23.4
   vue: 3.2.40
   vue-eslint-parser: 9.1.0
@@ -125,7 +125,7 @@ devDependencies:
   vite-plugin-vue-markdown: 0.21.1_vite@3.0.9
   vite-ssg: 0.21.1_faucgwkn62om3zdgqaukv6d4i4
   vite-ssg-sitemap: 0.4.3
-  vite-svg-loader: 3.4.0
+  vite-svg-loader: 3.6.0
   vitest: 0.23.4_e3y3tk5wocdgktiwrgnxpnd3nq
   vue-eslint-parser: 9.1.0_eslint@8.23.1
   vue-tsc: 0.40.13_typescript@4.8.4
@@ -9068,10 +9068,10 @@ packages:
       - utf-8-validate
     dev: true
 
-  /vite-svg-loader/3.4.0:
-    resolution: {integrity: sha512-xD3yb1FX+f4l9/TmsYIqyki8ncpcVsZ2gEJFh/wLuNNqt55C8OJ+JlcMWOA/Z9gRA+ylV/TA1wmJLxzZkCRqlA==}
+  /vite-svg-loader/3.6.0:
+    resolution: {integrity: sha512-bZJffcgCREW57kNkgMhuNqeDznWXyQwJ3wKrRhHLMMzwDnP5jr3vXW3cqsmquRR7VTP5mLdKj1/zzPPooGUuPw==}
     dependencies:
-      '@vue/compiler-sfc': 3.2.37
+      '@vue/compiler-sfc': 3.2.40
       svgo: 2.8.0
     dev: true
 
