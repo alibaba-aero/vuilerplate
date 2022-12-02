@@ -26,7 +26,7 @@
     "*.{scss,vue}": "stylelint --fix"
   },
   "dependencies": {
-    "@unocss/reset": "0.45.26",
+    "@unocss/reset": "0.47.5",
     "@vueuse/core": "9.1.1",
     "@vueuse/head": "0.9.7",
     "@vueuse/schema-org": "1.0.2",
