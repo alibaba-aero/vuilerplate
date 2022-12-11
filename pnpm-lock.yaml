@@ -6,7 +6,7 @@ specifiers:
   '@intlify/eslint-plugin-vue-i18n': 2.0.0
   '@intlify/vite-plugin-vue-i18n': 6.0.3
   '@pinia/testing': 0.0.14
-  '@testing-library/cypress': 8.0.3
+  '@testing-library/cypress': 8.0.7
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/vue': 6.6.1
   '@typescript-eslint/parser': 5.40.0
@@ -81,7 +81,7 @@ devDependencies:
   '@intlify/eslint-plugin-vue-i18n': 2.0.0_eslint@8.27.0
   '@intlify/vite-plugin-vue-i18n': 6.0.3_vite@3.0.9+vue-i18n@9.2.2
   '@pinia/testing': 0.0.14_pinia@2.0.22+vue@3.2.40
-  '@testing-library/cypress': 8.0.3_cypress@10.9.0
+  '@testing-library/cypress': 8.0.7_cypress@10.9.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/vue': 6.6.1_vue@3.2.40
   '@typescript-eslint/parser': 5.40.0_rmayb2veg2btbq6mbmnyivgasy
@@ -1908,11 +1908,11 @@ packages:
       string.prototype.matchall: 4.0.7
     dev: true
 
-  /@testing-library/cypress/8.0.3_cypress@10.9.0:
-    resolution: {integrity: sha512-nY2YaSbmuPo5k6kL0iLj/pGPPfka3iwb3kpTx8QN/vOCns92Saz9wfACqB8FJzcR7+lfA4d5HUOWqmTddBzczg==}
+  /@testing-library/cypress/8.0.7_cypress@10.9.0:
+    resolution: {integrity: sha512-3HTV725rOS+YHve/gD9coZp/UcPK5xhr4H0GMnq/ni6USdtzVtSOG9WBFtd8rYnrXk8rrGD+0toRFYouJNIG0Q==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
-      cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
+      cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0
     dependencies:
       '@babel/runtime': 7.18.9
       '@testing-library/dom': 8.14.0
