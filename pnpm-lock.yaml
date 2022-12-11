@@ -49,7 +49,7 @@ specifiers:
   unplugin-vue-components: 0.22.8
   vite: 3.0.9
   vite-plugin-compression: 0.5.1
-  vite-plugin-istanbul: 3.0.1
+  vite-plugin-istanbul: 3.0.4
   vite-plugin-pages: 0.26.0
   vite-plugin-pwa: 0.13.1
   vite-plugin-vue-layouts: 0.7.0
@@ -118,7 +118,7 @@ devDependencies:
   unplugin-vue-components: 0.22.8_vue@3.2.40
   vite: 3.0.9
   vite-plugin-compression: 0.5.1_vite@3.0.9
-  vite-plugin-istanbul: 3.0.1
+  vite-plugin-istanbul: 3.0.4
   vite-plugin-pages: 0.26.0_vite@3.0.9
   vite-plugin-pwa: 0.13.1_vite@3.0.9
   vite-plugin-vue-layouts: 0.7.0_xambrtbbhiaipqgixviga5z3bm
@@ -8943,8 +8943,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-istanbul/3.0.1:
-    resolution: {integrity: sha512-b6yBg7WHXHTaULcyb/d17/YXFcYrV6nHTiqYxOIhhbIFjgp8CgVkuP3iGQU1vRxeutrIwTa4pFNmS4uZSAKhGA==}
+  /vite-plugin-istanbul/3.0.4:
+    resolution: {integrity: sha512-DJy3cq6yOFbsM3gLQf/3zeuaJNJsfBv5dLFdZdv8sUV30xLtZI+66QeYfHUyP/5vBUYyLA+xNUCSG5uHY6w+5g==}
     dependencies:
       '@istanbuljs/load-nyc-config': 1.1.0
       istanbul-lib-instrument: 5.2.0
