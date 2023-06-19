@@ -11,7 +11,7 @@ specifiers:
   '@testing-library/vue': 6.6.1
   '@typescript-eslint/parser': 5.40.0
   '@unocss/reset': 0.47.5
-  '@vitejs/plugin-vue': 3.1.0
+  '@vitejs/plugin-vue': 3.2.0
   '@vitejs/plugin-vue-jsx': 2.0.1
   '@vue/test-utils': 2.1.0
   '@vueuse/core': 9.1.1
@@ -85,7 +85,7 @@ devDependencies:
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/vue': 6.6.1_vue@3.2.40
   '@typescript-eslint/parser': 5.40.0_rmayb2veg2btbq6mbmnyivgasy
-  '@vitejs/plugin-vue': 3.1.0_vite@3.0.9+vue@3.2.40
+  '@vitejs/plugin-vue': 3.2.0_vite@3.0.9+vue@3.2.40
   '@vitejs/plugin-vue-jsx': 2.0.1_vite@3.0.9+vue@3.2.40
   '@vue/test-utils': 2.1.0_vue@3.2.40
   c8: 7.12.0
@@ -2466,8 +2466,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue/3.1.0_vite@3.0.9+vue@3.2.40:
-    resolution: {integrity: sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==}
+  /@vitejs/plugin-vue/3.2.0_vite@3.0.9+vue@3.2.40:
+    resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
