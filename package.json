@@ -79,7 +79,7 @@
     "unplugin-vue-components": "0.22.8",
     "vite": "3.0.9",
     "vite-plugin-compression": "0.5.1",
-    "vite-plugin-istanbul": "3.0.1",
+    "vite-plugin-istanbul": "3.0.4",
     "vite-plugin-pages": "0.26.0",
     "vite-plugin-pwa": "0.13.1",
     "vite-plugin-vue-layouts": "0.7.0",
