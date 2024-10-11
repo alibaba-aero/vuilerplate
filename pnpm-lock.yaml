@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': 0.27.0
-  '@iconify-json/carbon': 1.1.11
+  '@iconify-json/carbon': 1.2.3
   '@intlify/eslint-plugin-vue-i18n': 2.0.0
   '@intlify/vite-plugin-vue-i18n': 6.0.3
   '@pinia/testing': 0.0.14
@@ -77,7 +77,7 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config': 0.27.0_rmayb2veg2btbq6mbmnyivgasy
-  '@iconify-json/carbon': 1.1.11
+  '@iconify-json/carbon': 1.2.3
   '@intlify/eslint-plugin-vue-i18n': 2.0.0_eslint@8.27.0
   '@intlify/vite-plugin-vue-i18n': 6.0.3_vite@3.0.9+vue-i18n@9.2.2
   '@pinia/testing': 0.0.14_pinia@2.0.22+vue@3.2.40
@@ -1566,8 +1566,8 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
-  /@iconify-json/carbon/1.1.11:
-    resolution: {integrity: sha512-IHkHSNmTM6q6b8DuKSzd+AEMYPZywSxcb+37kZU7ywtcwsGen3aVEvWFykopIWjjwj3xdZ/5UdwJRqhZDQMlNg==}
+  /@iconify-json/carbon/1.2.3:
+    resolution: {integrity: sha512-smQ1nMHZn1BcTBqr13SP/7z3F1mbGCjUT1PdcpmbRoBrB4nAA9ErkTvUp49zxCQ/6VHcJsVzLV2zVXY3jJ4Bnw==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1601,8 +1601,8 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/message-compiler': 9.3.0-beta.10
-      '@intlify/shared': 9.3.0-beta.10
+      '@intlify/message-compiler': 10.0.0
+      '@intlify/shared': 10.0.0
       jsonc-eslint-parser: 1.4.1
       source-map: 0.6.1
       vue-i18n: 9.2.2_vue@3.2.40
@@ -1650,6 +1650,14 @@ packages:
       - supports-color
     dev: true
 
+  /@intlify/message-compiler/10.0.0:
+    resolution: {integrity: sha512-OcaWc63NC/9p1cMdgoNKBj4d61BH8sUW1Hfs6YijTd9656ZR4rNqXAlRnBrfS5ABq0vjQjpa8VnyvH9hK49yBw==}
+    engines: {node: '>= 16'}
+    dependencies:
+      '@intlify/shared': 10.0.0
+      source-map-js: 1.0.2
+    dev: true
+
   /@intlify/message-compiler/9.2.2:
     resolution: {integrity: sha512-IUrQW7byAKN2fMBe8z6sK6riG1pue95e5jfokn8hA5Q3Bqy4MBJ5lJAofUsawQJYHeoPJ7svMDyBaVJ4d0GTtA==}
     engines: {node: '>= 14'}
@@ -1657,22 +1665,14 @@ packages:
       '@intlify/shared': 9.2.2
       source-map: 0.6.1
 
-  /@intlify/message-compiler/9.3.0-beta.10:
-    resolution: {integrity: sha512-RoOC6yceOykLRhN0NlbkNOBUx1el6iphx3W8NfOx3jHVNtfT1FYokx14/5sU3F1F0uxeG4sp6q+ppKvaF8o+ww==}
-    engines: {node: '>= 14'}
-    dependencies:
-      '@intlify/shared': 9.3.0-beta.10
-      source-map: 0.6.1
+  /@intlify/shared/10.0.0:
+    resolution: {integrity: sha512-6ngLfI7DOTew2dcF9WMJx+NnMWghMBhIiHbGg+wRvngpzD5KZJZiJVuzMsUQE1a5YebEmtpTEfUrDp/NqVGdiw==}
+    engines: {node: '>= 16'}
     dev: true
 
   /@intlify/shared/9.2.2:
     resolution: {integrity: sha512-wRwTpsslgZS5HNyM7uDQYZtxnbI12aGiBZURX3BTR9RFIKKRWpllTsgzHWvj3HKm3Y2Sh5LPC1r0PDCKEhVn9Q==}
     engines: {node: '>= 14'}
-
-  /@intlify/shared/9.3.0-beta.10:
-    resolution: {integrity: sha512-h93uAanbAt/XgjDHclrVB7xix6r7Uz11wx0iGNOCdHP7aA2LCJjUT3uNbekJjjbo+Fl5jzTSJZdm2SexzoqhRA==}
-    engines: {node: '>= 14'}
-    dev: true
 
   /@intlify/vite-plugin-vue-i18n/6.0.3_vite@3.0.9+vue-i18n@9.2.2:
     resolution: {integrity: sha512-6SgNzPAOCR90wvt368lKzi7f/5ZEWJn22UCGvhFsP3XvKqlF3cVzojahgQ6o+LTdCkExeM6wPgd+haFf28E9VQ==}
@@ -1690,7 +1690,7 @@ packages:
         optional: true
     dependencies:
       '@intlify/bundle-utils': 3.2.1_vue-i18n@9.2.2
-      '@intlify/shared': 9.3.0-beta.10
+      '@intlify/shared': 10.0.0
       '@rollup/pluginutils': 4.2.1
       debug: 4.3.4
       fast-glob: 3.2.12
